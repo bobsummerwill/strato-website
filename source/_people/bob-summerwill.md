@@ -13,7 +13,7 @@ description: 'Grizzled blockchain veteran and "Decentralization Czar"'
 
 ## Overview
 
-As Head of Ecosystem at [BlockApps](https://blockapps.net), Bob is helping to drive the transition of STRATO Mercata from a closed-source platform to a rich, decentralized ecosystem, bridging on-chain and real world assets.
+As Head of Ecosystem at [BlockApps](https://blockapps.net), Bob is helping to drive the transition of STRATO from a closed-source platform to a rich, decentralized ecosystem, bridging on-chain and real world assets.
 
 {% include content-embed.html
   url="/blog/bob-summerwill-joins-blockapps/"

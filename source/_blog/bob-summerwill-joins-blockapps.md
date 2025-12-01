@@ -16,7 +16,7 @@ BlockApps is excited to announce that Bob Summerwill has joined the team as Head
 - [Career Highlights](#career-highlights)
 - [Leading the Ethereum Classic Cooperative](#leading-the-ethereum-classic-cooperative)
 - [From AAA Video Games to Blockchain Visionary](#from-aaa-video-games-to-blockchain-visionary)
-- [Championing the STRATO Mercata Vision](#championing-the-strato-mercata-vision)
+- [Championing the STRATO Vision](#championing-the-strato-mercata-vision)
 - [Pioneering Decentralized Governance for STRATO](#pioneering-decentralized-governance-for-strato)
 - [Powering On-Chain Commerce and Real-World Assets](#powering-on-chain-commerce-and-real-world-assets)
 - [Join the Conversation](#join-the-conversation)
@@ -38,9 +38,9 @@ In 2019 he joined the [Ethereum Classic Cooperative](https://etccooperative.org)
 
 Prior to his blockchain career, Bob spent 18 years in the videogames industry, mainly at [Electronic Arts](https://ea.com) in the UK and Canada. He worked as a software engineer, technical lead and ultimately as the EA Sports Label Software Architect (worldwide role, all platforms). He worked on FIFA, NBA, NHL and UFC titles, and multiple central technology and collaboration projects, ultimately being credited on 20 AAA titles. He also worked briefly as a Solutions Architect at [TD Securities](https://tdsecurities.com) in Toronto, and had a taste of the reality of software within financial institutions.
 
-## Championing the STRATO Mercata Vision
+## Championing the STRATO Vision
 
-> _"I am delighted to join BlocksApps and to contribute to the realization of the STRATO Mercata vision. Cryptocurrencies and stablecoins have found great product market fit, but bridging on-chain assets with the real world remains elusive. "Living on crypto" and "Unbank the banked" are not easy problems to solve, but they are essential for blockchain to achieve its ultimate utility. BlockApps are in a great position to deliver key building blocks for that end-goal."_
+> _"I am delighted to join BlocksApps and to contribute to the realization of the STRATO vision. Cryptocurrencies and stablecoins have found great product market fit, but bridging on-chain assets with the real world remains elusive. "Living on crypto" and "Unbank the banked" are not easy problems to solve, but they are essential for blockchain to achieve its ultimate utility. BlockApps are in a great position to deliver key building blocks for that end-goal."_
 > 
 > — Bob Summerwill
 

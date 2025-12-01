@@ -66,7 +66,7 @@ Yes, exactly. Okay, we seem to be also live on X, so welcome everyone to another
 Mutual support group.
 
 [[00:34]](https://www.youtube.com/watch?v=2BR6nodzzos&t=34s) **Victor:**
-Yes, exactly.  With the builders from [STRATO Mercata](https://stratomercata.com), I'm Victor Wong. I am Founder and Chief Product Officer at [STRATO Mercata](https://stratomercata.com). [Bob]({{ '/people/bob-summerwill/' | relative_url }}), who are you?
+Yes, exactly.  With the builders from [STRATO](https://stratomercata.com), I'm Victor Wong. I am Founder and Chief Product Officer at [STRATO](https://stratomercata.com). [Bob]({{ '/people/bob-summerwill/' | relative_url }}), who are you?
 
 [[00:45]](https://www.youtube.com/watch?v=2BR6nodzzos&t=45s) **Bob:**
 Hello, I'm Head of Ecosystem.

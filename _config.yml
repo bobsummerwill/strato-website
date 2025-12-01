@@ -1,5 +1,5 @@
 # ============================================================================
-# Jekyll Configuration File for STRATO Mercata
+# Jekyll Configuration File for STRATO
 # ============================================================================
 # This file configures how Jekyll builds and serves the site.
 # Jekyll Documentation: https://jekyllrb.com/docs/configuration/
@@ -17,7 +17,7 @@ source: source
 # These settings define your site's identity and are used throughout templates,
 # SEO optimization, and social media sharing.
 
-title: "STRATO Mercata"
+title: "STRATO"
 description: "Easily earn on vaulted gold, silver & crypto. Get instant credit. Built by ETH veterans"
 baseurl: ""  # Empty for custom domain at root
 url: "https://stratomercata.com"  # Production domain
@@ -30,7 +30,7 @@ author: "Bob Summerwill"  # Default author for content and SEO
 
 lang: en_US  # Language code for HTML lang attribute and SEO
 timezone: America/New_York  # Timezone for date processing
-keywords: "STRATO Mercata, blockchain, cryptocurrency, DeFi, real-world assets, RWA, gold, silver, lending, borrowing, trading, Ethereum, tokenization"  # Default keywords for SEO
+keywords: "STRATO, blockchain, cryptocurrency, DeFi, real-world assets, RWA, gold, silver, lending, borrowing, trading, Ethereum, tokenization"  # Default keywords for SEO
 
 # ============================================================================
 # Site Verification Codes
