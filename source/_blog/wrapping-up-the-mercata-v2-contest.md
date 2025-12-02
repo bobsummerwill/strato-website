@@ -25,7 +25,7 @@ We are thrilled to announce the winners across the two main categories:
 - **Exploit Hunter – dadajuice**  
   Security is at the heart of Mercata, and our bug bounty-style testing brought valuable insights. The standout contribution came from **dadajuice**, who discovered a **Cross-Site Request Forgery (CSRF)** vulnerability. This critical finding underscored the importance of rigorous security testing in decentralized finance applications and helped us strengthen the upcoming release of Mercata V2.
 
-Find the full leaderboard [here](https://stratoscan.testnet.stratomercata.com/leaderboard)
+Find the full leaderboard [here](https://stratoscan.testnet.strato.nexus/leaderboard)
 
 ## Why This Matters
 

@@ -22,11 +22,11 @@ table_of_contents:
     title: "Wrap up"
 ---
 
-Our long-awaited [Mercata V2 contest]("https://www.stratomercata.com/blog/announcing-the-mercata-v2-trading-and-testing-challenge") started at 5pm ET on Wednesday 17th September 2025.  The winners will be announced on our 24th September Twitter Spaces exactly a week later.
+Our long-awaited [Mercata V2 contest]("https://www.strato.nexus/blog/announcing-the-mercata-v2-trading-and-testing-challenge") started at 5pm ET on Wednesday 17th September 2025.  The winners will be announced on our 24th September Twitter Spaces exactly a week later.
 
 **STRATO Mercata V2** is our completely revamped application, which is due to be released later this year.  The contest is using our testnet running the latest pre-release version.
 
-Here are [instructions to get started](https://www.stratomercata.com/blog/announcing-the-mercata-v2-trading-and-testing-challenge).
+Here are [instructions to get started](https://www.strato.nexus/blog/announcing-the-mercata-v2-trading-and-testing-challenge).
 
 
 ## Audio
@@ -119,7 +119,7 @@ Okay. So, yeah, maybe we start. So, yeah.
 [[9:12]](https://www.youtube.com/watch?v=rSfw2sgHVJE&t=552s) **Bob:**
 Okay. Hi, everyone. Good to have you here.
 
-I'm Bob Summerwill. I'm the [Head of Ecosystem](https://blockapps.net/blog/bob-summerwill-joins-blockapps-as-key-industry-leader/) at [STRATO Mercata](https://stratomercata.com). [Victor]({{ '/people/victor-wong/' | relative_url }}), who's with us here, is the Chief Product Officer and Co-Founder.
+I'm Bob Summerwill. I'm the [Head of Ecosystem](https://blockapps.net/blog/bob-summerwill-joins-blockapps-as-key-industry-leader/) at [STRATO Mercata](https://strato.nexus). [Victor]({{ '/people/victor-wong/' | relative_url }}), who's with us here, is the Chief Product Officer and Co-Founder.
 
 Mercata V2 is the new iteration of our application, of our network, which has been a major focus for us this year. We spent the vast majority of this year rebuilding a completely new application experience. The current production main net is more of a sort of eBay-ish kind of setup, really coming out of an earlier period where we were having a marketplace of collectibles, tokenized whiskey barrels, and other things which were more NFT-like.
 
@@ -221,7 +221,7 @@ But, yes, we'll get you some wired headphones, [Bob]({{ '/people/bob-summerwill/
 
 So, we look forward, the contest will run until the following Tuesday at 5pm.  So, everyone, we look forward to seeing you participate in the contest. We look forward to seeing any of your comments. And please provide whatever feedback that you have on the [Telegram feed](https://t.me/stratomercata).
 
-Your feedback so far has been immensely helpful. And I think this is going to really make [STRATO Mercata](https://stratomercata.com) into an amazing product. So, thank you very much.
+Your feedback so far has been immensely helpful. And I think this is going to really make [STRATO Mercata](https://strato.nexus) into an amazing product. So, thank you very much.
 
 And with that, happy hunting, everyone. Take care.
 

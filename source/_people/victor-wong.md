@@ -11,7 +11,7 @@ social:
 description: Designing innovative DeFi products that bridge traditional and digital assets.
 ---
 
-Victor is Co-Founder and Chief Product Officer at [BlockApps](https://blockapps.net) and [STRATO Mercata](https://stratomercata.com).  He is a blockchain veteran with over a decade of experience driving mainstream adoption.
+Victor is Co-Founder and Chief Product Officer at [BlockApps](https://blockapps.net) and [STRATO](https://strato.nexus).  He is a blockchain veteran with over a decade of experience driving mainstream adoption.
 
 An early contributor to Ethereum and [Consensys](https://consensys.io), his key achievements include co-creating Blockchain-as-a-Service, helping with the establishment of the [Enterprise Ethereum Alliance](https://entethalliance.com), and developing some of the first real-world assets on private Ethereum blockchains.
 

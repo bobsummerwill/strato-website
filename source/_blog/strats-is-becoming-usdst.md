@@ -36,4 +36,4 @@ USDST does three important things that we're particularly proud of:
 
 This is just the beginning. We're building a more robust platform with expanded rewards and earning opportunities that we can't wait to share with you.
 
-Ready to see for yourself? We thought you might be. Visit the Mercata Marketplace today: [stratomercata.com](/)
+Ready to see for yourself? We thought you might be. Visit the Mercata Marketplace today: [strato.nexus](/)

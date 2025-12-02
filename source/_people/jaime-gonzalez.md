@@ -9,4 +9,4 @@ social:
 description: Bringing real-world assets on-chain, forging partnerships, and building engaged markets across the broader blockchain ecosystem.
 ---
 
-Jaime Gonzalez helps lead partnerships and growth at [STRATO Mercata](https://stratomercata.com). He works with issuers, customers and infrastructure partners to bring assets on-chain and design practical models that support liquidity and ongoing use. He ties product and community feedback to clear GTM plans, rewards, and documentation.
+Jaime Gonzalez helps lead partnerships and growth at [STRATO](https://strato.nexus). He works with issuers, customers and infrastructure partners to bring assets on-chain and design practical models that support liquidity and ongoing use. He ties product and community feedback to clear GTM plans, rewards, and documentation.

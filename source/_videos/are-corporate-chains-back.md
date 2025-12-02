@@ -66,7 +66,7 @@ Yes, exactly. Okay, we seem to be also live on X, so welcome everyone to another
 Mutual support group.
 
 [[00:34]](https://www.youtube.com/watch?v=2BR6nodzzos&t=34s) **Victor:**
-Yes, exactly.  With the builders from [STRATO Mercata](https://stratomercata.com), I'm Victor Wong. I am Founder and Chief Product Officer at [STRATO Mercata](https://stratomercata.com). [Bob]({{ '/people/bob-summerwill/' | relative_url }}), who are you?
+Yes, exactly.  With the builders from [STRATO](https://strato.nexus), I'm Victor Wong. I am Founder and Chief Product Officer at [STRATO](https://strato.nexus). [Bob]({{ '/people/bob-summerwill/' | relative_url }}), who are you?
 
 [[00:45]](https://www.youtube.com/watch?v=2BR6nodzzos&t=45s) **Bob:**
 Hello, I'm Head of Ecosystem.
@@ -274,7 +274,7 @@ And I think we experienced it even in, like, back in 2015, even, like, any devia
 ### BlockApps early corporate chain history
 
 [[10:56]](https://www.youtube.com/watch?v=2BR6nodzzos&t=656s) **Victor:**
-Well, maybe that's sort of a good transition. Maybe we can, you know, we, as [BlockApps](https://blockapps.net) and [STRATO](https://stratomercata.com), went in, you know, with the [Haskell](https://www.haskell.org/) implementation of [Ethereum](https://ethereum.org), went in a corpo-chain direction. Maybe, like, you can talk about why we did that and what happened there.
+Well, maybe that's sort of a good transition. Maybe we can, you know, we, as [BlockApps](https://blockapps.net) and [STRATO](https://strato.nexus), went in, you know, with the [Haskell](https://www.haskell.org/) implementation of [Ethereum](https://ethereum.org), went in a corpo-chain direction. Maybe, like, you can talk about why we did that and what happened there.
 
 So we may be partly to blame for this.
 

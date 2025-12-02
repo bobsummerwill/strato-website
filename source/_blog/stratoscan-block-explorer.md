@@ -3,13 +3,13 @@ title: "STRATOSCAN: New Public Block Explorer for STRATO Mercata"
 date: 2025-07-07
 author: "Bob Summerwill"
 description: "We are delighted to unveil the first iteration of STRATOSCAN, our public block explorer!"
-img: "/images/stratomercata.com/2025.10.13/stratoscan-screenshot.png"
+img: "/images/strato.nexus/2025.10.13/stratoscan-screenshot.png"
 categories: ["General"]
 ---
 
 We are delighted to unveil the first iteration of STRATOSCAN, our public block explorer!
 
-Check it out at **[https://stratoscan.stratomercata.com](https://stratoscan.stratomercata.com)**.
+Check it out at **[https://stratoscan.strato.nexus](https://stratoscan.strato.nexus)**.
 
 It features pages for:
 

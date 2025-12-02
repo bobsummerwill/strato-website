@@ -1,14 +1,14 @@
-# STRATO Mercata Website
+# STRATO Website
 
-The official website for STRATO Mercata - a platform to easily earn on vaulted gold, silver & crypto with instant credit. Built by Ethereum veterans.
+The official website for STRATO - a platform to easily earn on vaulted gold, silver & crypto with instant credit. Built by Ethereum veterans.
 
 ## About This Project
 
-**STRATO Mercata** is a Jekyll-based static website that serves as the primary web presence for STRATO Mercata. The site features video content, team member profiles, and information about the platform's capabilities.
+**STRATO** is a Jekyll-based static website that serves as the primary web presence for STRATO. The site features video content, team member profiles, and information about the platform's capabilities.
 
 ### What You'll Find Here
 
-- **Team Profiles**: Biographies and profiles of STRATO Mercata team members
+- **Team Profiles**: Biographies and profiles of STRATO team members
 - **Video Content**: Show episodes, contest announcements, and platform demonstrations
 - **Blog**: Platform updates, announcements, and educational content
 - **Platform Information**: Details about trading, lending, and borrowing on real-world assets
@@ -43,7 +43,7 @@ stratomercata-website/
 
 The `_config.yml` file contains production settings:
 - **`baseurl: ""`**: Empty for custom domain at root
-- **`url: "https://stratomercata.com"`**: Production domain
+- **`url: "https://strato.nexus"`**: Production domain
 
 For local development, Jekyll's `serve` command automatically overrides the `url` setting to `http://localhost:4000`.
 
@@ -82,7 +82,7 @@ The development server includes:
 The site uses three Jekyll collections:
 
 ### Blog (`_blog/`)
-Platform updates, announcements, and educational content about STRATO Mercata.
+Platform updates, announcements, and educational content about STRATO.
 
 ### People (`_people/`)
 Team member profiles with photos, bios, and social links.
@@ -104,7 +104,7 @@ Show episodes, contests, and platform demonstrations with embedded YouTube video
 Example frontmatter:
 ```yaml
 ---
-title: "STRATO Mercata Show: State of Blockchain"
+title: "STRATO Show: State of Blockchain"
 date: 2025-10-08
 hosts: ["Bob Summerwill", "Victor Wong", "Kieren James-Lubin"]
 description: "Reflections on TOKEN2049 in Singapore"
@@ -244,7 +244,7 @@ Images are organized by source and date:
 ```
 source/images/bobsummerwill.com/2025.08.26/photo.jpeg
 source/images/linkedin.com/2025.10.07/profile.png
-source/images/stratomercata.com/2025.10.07/screenshot.png
+source/images/strato.nexus/2025.10.07/screenshot.png
 ```
 
 Always use relative paths with the `relative_url` filter for images.
@@ -292,4 +292,4 @@ This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 I
 For questions or support:
 - Open an [issue](https://github.com/stratomercata/stratomercata-website/issues)
 - Contact [@bobsummerwill](https://x.com/bobsummerwill) on X/Twitter
-- Visit [STRATO Mercata](https://www.stratomercata.com)
+- Visit [STRATO](https://www.strato.nexus)

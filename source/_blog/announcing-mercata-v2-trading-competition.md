@@ -3,7 +3,7 @@ title: "Announcing the Mercata V2 Trading Competition!"
 date: 2025-07-15
 author: "Bob Summerwill"
 description: "Our team has been busy at work on a complete revamp of the Mercata application. We are inviting the community to explore the new application and to participate in a trading and bug bounty competition."
-img: "/images/stratomercata.com/2025.10.13/v2-competition-banner.png"
+img: "/images/strato.nexus/2025.10.13/v2-competition-banner.png"
 categories: ["General"]
 ---
 
@@ -31,11 +31,11 @@ Our team has been busy at work on a complete revamp of the Mercata application. 
 ## How to Join
 
 - **Join our Telegram group** – Join us in our [Telegram group](https://t.me/mercatamarket/), where we have a channel dedicated to this competition.
-- **Sign up for a testnet account** – Visit [STRATO Mercata Testnet](https://testnet.stratomercata.com/) and register a **new account** with your email. We will not fund any account with existing balances.
+- **Sign up for a testnet account** – Visit [STRATO Mercata Testnet](https://testnet.strato.nexus/) and register a **new account** with your email. We will not fund any account with existing balances.
 - **Submit your Mercata testnet address** – Send it to our [Telegram group](https://t.me/mercatamarket/) in the **"Trading Competition 7/16-7-23"** channel.
 - **Receive $6,000 testnet funds** – Once registered, you will be credited with $1000 each of the six available assets – USDST, GOLDST, SILVST, WBTCST, ETHST and bCSPXST – to begin trading.
 - **Report issues or exploits** – Please report any issues or exploits you encounter directly to the Telegram channel.
-- **Explore the testnet** – We are hosting a [STRATOSCAN instance](https://stratoscan-testnet.stratomercata.com/) for the testnet, which you can use to inspect blocks, transactions, accounts and tokens.
+- **Explore the testnet** – We are hosting a [STRATOSCAN instance](https://stratoscan-testnet.strato.nexus/) for the testnet, which you can use to inspect blocks, transactions, accounts and tokens.
 
 ## What's New in Mercata V2
 
@@ -47,9 +47,9 @@ After logging in, you'll land on your **Portfolio Overview**, which includes:
 - **Borrowing Risk Level**: Visualized in a bar chart for clarity
 - **Pool Participation**: Overview of your activity across liquidity pools
 
-![Portfolio Overview]({{ site.baseurl }}/images/stratomercata.com/2025.10.13/Screenshot-from-2025-07-15-14-38-10.png)
+![Portfolio Overview]({{ site.baseurl }}/images/strato.nexus/2025.10.13/Screenshot-from-2025-07-15-14-38-10.png)
 
-![Portfolio Details]({{ site.baseurl }}/images/stratomercata.com/2025.10.13/Screenshot-from-2025-07-15-14-39-41.png)
+![Portfolio Details]({{ site.baseurl }}/images/strato.nexus/2025.10.13/Screenshot-from-2025-07-15-14-39-41.png)
 
 ## How to Trade and Participate
 
@@ -57,7 +57,7 @@ After logging in, you'll land on your **Portfolio Overview**, which includes:
 
 Use the new swap modal to trade USDST for real-world assets (RWAs) and crypto.
 
-![Swap Modal]({{ site.baseurl }}/images/stratomercata.com/2025.10.13/Screenshot-from-2025-07-15-16-26-37.png)
+![Swap Modal]({{ site.baseurl }}/images/strato.nexus/2025.10.13/Screenshot-from-2025-07-15-16-26-37.png)
 
 Available pairs include:
 
@@ -73,7 +73,7 @@ Swaps update your portfolio and can be used as collateral for borrowing.
 
 Supply assets to increase your borrowing power, then borrow additional USDST or other assets. Your borrowing risk level, available borrowing power, and interest rate are all displayed in the Portfolio Overview.
 
-![Borrow Interface]({{ site.baseurl }}/images/stratomercata.com/2025.10.13/Screenshot-from-2025-07-15-16-27-59.png)
+![Borrow Interface]({{ site.baseurl }}/images/strato.nexus/2025.10.13/Screenshot-from-2025-07-15-16-27-59.png)
 
 ### Participate in Liquidity Pools
 
@@ -82,7 +82,7 @@ Earn simulated yield by participating in:
 - The USDST lending pool
 - Swap pools for USDST paired with WBTC, ETH, GOLDST, or SILVST
 
-![Liquidity Pools]({{ site.baseurl }}/images/stratomercata.com/2025.10.13/Screenshot-from-2025-07-15-20-52-00.png)
+![Liquidity Pools]({{ site.baseurl }}/images/strato.nexus/2025.10.13/Screenshot-from-2025-07-15-20-52-00.png)
 
 ## Strategies to Try
 

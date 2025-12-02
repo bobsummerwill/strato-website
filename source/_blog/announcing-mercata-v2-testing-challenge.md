@@ -3,7 +3,7 @@ title: "Announcing the Mercata V2 'Trading and Testing Challenge'"
 date: 2025-09-16
 author: "Bob Summerwill"
 description: "Our long-awaited Mercata V2 contest is starting tomorrow, Wednesday 17th September 2025. The contest will start at 5pm Eastern time, during our 17th September Twitter Spaces."
-img: /images/stratomercata.com/2025.10.13/Screenshot-2025-09-16-Dashboard.png
+img: /images/strato.nexus/2025.10.13/Screenshot-2025-09-16-Dashboard.png
 categories: ["General"]
 ---
 
@@ -30,11 +30,11 @@ Sign up now, so you are ready on the starting line as soon as the contest opens!
 - Create a STRATO Mercata mainnet account, if you do not already have one, to receive your CATA points
 - Add METH and MUSDC tokens to your Sepolia MetaMask wallet (see below)
 - Fill in the [Onboarding Form](https://docs.google.com/forms/d/e/1FAIpQLScmAkmQLhvojL3fQ4wwdxBKTQwOcQEAdjo4BO74H_GUpq4OCw/viewform) with the name you want to go by, those addresses and (optionally) your social handles
-- The [Leaderboard](https://stratoscan.testnet.stratomercata.com/leaderboard) will be continuously updated.
+- The [Leaderboard](https://stratoscan.testnet.strato.nexus/leaderboard) will be continuously updated.
 
 ## Initial assets
 
-Here is the **[link to the application](https://app.testnet.stratomercata.com/)**.
+Here is the **[link to the application](https://app.testnet.strato.nexus/)**.
 
 When the competition starts, your accounts on both networks will be credited with some assets on both testnets and you can trade and bug-hunt away until **5pm Eastern on Tuesday 23rd September 2025**. Specifically, you will receive:
 
@@ -60,9 +60,9 @@ We are using two custom tokens on Sepolia so competitors will have to add those 
     - Address: 0x46e96acF148b019da71E41F36239833f550dFeB9
     - Token decimal: 18
 
-![MetaMask Import Process](https://stratoscan.testnet.stratomercata.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimport2.c399facb.png&w=384&q=75)
+![MetaMask Import Process](https://stratoscan.testnet.strato.nexus/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimport2.c399facb.png&w=384&q=75)
 
-![MetaMask Token Details](https://stratoscan.testnet.stratomercata.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimport1.578ea21c.png&w=384&q=75)
+![MetaMask Token Details](https://stratoscan.testnet.strato.nexus/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimport1.578ea21c.png&w=384&q=75)
 
 The token symbol and decimals should populate automatically.
 

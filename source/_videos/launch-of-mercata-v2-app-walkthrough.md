@@ -334,7 +334,7 @@ Making delivery. Okay. Well, is there anything else anyone wanted to cover or we
 No, we just look forward to you guys trying it and giving us whatever input. We're really excited for you to see this and it's still going to evolve a lot. Things have been moving quickly and will continue to be moving quickly on it. So exciting times for us.
 
 [[30:52]](https://www.youtube.com/watch?v=NPLeU3iVIMw&t=1852s) **Bob Summerwill:**
-So yeah, just to head to [stratomercata.com](https://stratomercata.com), so S-T-R-A-T-O-M-E-R-C-A-T-A dot com, [stratomercata.com](https://stratomercata.com), and you've got the app there and all the information.
+So yeah, just to head to [strato.nexus](https://strato.nexus), so S-T-R-A-T-O-M-E-R-C-A-T-A dot com, [strato.nexus](https://strato.nexus), and you've got the app there and all the information.
 
 [[31:08]](https://www.youtube.com/watch?v=NPLeU3iVIMw&t=1868s) **Kieren James-Lubin:**
 My button in the top right.

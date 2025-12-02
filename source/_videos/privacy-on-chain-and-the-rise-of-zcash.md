@@ -321,7 +321,7 @@ Oh, Jamshied Hermos.
 Yeah, I'm on X, K-James-Lubin. I'm also on Substack, trying to, you know, I have like a couple old Medium posts that I've linked from there. I'm getting a little bit into a Substack rhythm. It'll probably be infrequent, but at least of moderate to high quality. Also, K-James-Lubin dot Substack. I think for now, maybe I'll change the URL and link it to me in the show notes when we start assuming we do show notes.
 
 **Victor Wong:**
-And you can find me on X at VicForWong. Bob has posted—why I explained before in my handle. You can also find us on Telegram at the Stratis Mercata group. Just go to our website at stratismercata.com and that will point you to Telegram. And Bob, where can people find you and what can people expect next week?
+And you can find me on X at VicForWong. Bob has posted—why I explained before in my handle. You can also find us on Telegram at the Strato group. Just go to our website at strato.nexus and that will point you to Telegram. And Bob, where can people find you and what can people expect next week?
 
 **Kieren James-Lubin:**
 Don't close it out. Bob, you're the resident Zcash shill. One year from now, Zcash price or market cap or both?

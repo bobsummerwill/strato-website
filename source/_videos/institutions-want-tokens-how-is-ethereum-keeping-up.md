@@ -198,7 +198,7 @@ It was a larger group that's slightly different.
 Also... By the way, we should introduce ourselves. We should.
 
 [[5:49]](https://www.youtube.com/watch?v=CNavXFv3ats&t=349s) **Bob:**
-Yeah, hi, I'm Bob Summerwill. I'm Head of Ecosystem at [STRATO Mercata](https://stratomercata.com/).
+Yeah, hi, I'm Bob Summerwill. I'm Head of Ecosystem at [STRATO Mercata](https://strato.nexus/).
 
 [[5:56]](https://www.youtube.com/watch?v=CNavXFv3ats&t=356s) **Kieren:**
 Kieren James-Lubin, CEO of [BlockApps](https://blockapps.net).
@@ -207,7 +207,7 @@ Kieren James-Lubin, CEO of [BlockApps](https://blockapps.net).
 Victor Wong.
 
 [[5:59]](https://www.youtube.com/watch?v=CNavXFv3ats&t=356s) **Kieren:**
-Creators of [STRATO Mercata](https://stratomercata.com/).
+Creators of [STRATO Mercata](https://strato.nexus/).
 
 [[6:00]](https://www.youtube.com/watch?v=CNavXFv3ats&t=358s) **Victor:**
 Yeah, and Victor Wong, Chief Product Officer of [BlockApps](https://blockapps.net).

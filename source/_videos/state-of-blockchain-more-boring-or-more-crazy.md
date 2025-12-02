@@ -116,7 +116,7 @@ That's a good question. We can ease into the substance of the content. Do we hav
 [[2:11]](https://www.youtube.com/watch?v=15MltoqMjZU&t=131s) **Victor:**
 Cold opens. Well, maybe we should do our intros because we- Okay, we could do the intros. So hi, everyone.
 
-Welcome to our week show. If you don't know, we are all part of the [STRATO Mercata](https://stratomercata.com) project that is a layer one EVM compatible blockchain focused on bringing Defi to the masses.
+Welcome to our week show. If you don't know, we are all part of the [STRATO](https://strato.nexus) project that is a layer one EVM compatible blockchain focused on bringing Defi to the masses.
 
 Now, the three of us here are all longtime builders and all Ethereum OGs.
 

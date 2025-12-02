@@ -3,7 +3,7 @@ title: "Vaulting Precious Metals on Mercata: The Trust You Deserve"
 date: 2025-02-06
 author: "Jordan Cole"
 description: "At STRATO Mercata, we're redefining how you collect real-world assets. With our vault-backed staking for physical gold and silver, we've made it easier, safer, and more rewarding to own precious metals."
-img: "/images/stratomercata.com/2025.10.14/Now-available-for-staking-2-1024x576.jpg"
+img: "/images/strato.nexus/2025.10.14/Now-available-for-staking-2-1024x576.jpg"
 categories: ["General"]
 ---
 
@@ -33,9 +33,9 @@ Collecting in gold and silver has always been smart, but STRATO Mercata makes it
 
 To kick off the year, we'd like to share the January metals audit report from BA Gold Enterprises Inc.
 
-![January Audit Report]({{ '/images/stratomercata.com/2025.10.14/IMG_8573-300x300.jpg' | relative_url }})
+![January Audit Report]({{ '/images/strato.nexus/2025.10.14/IMG_8573-300x300.jpg' | relative_url }})
 
-Be sure to check [STRATO Scan](https://stratoscan.stratomercata.com/) and [follow us on X](https://x.com/mercatamarketpl) to view the monthly reports.
+Be sure to check [STRATO Scan](https://stratoscan.strato.nexus/) and [follow us on X](https://x.com/mercatamarketpl) to view the monthly reports.
 
 Have questions? Email us at sales@blockapps.net
 

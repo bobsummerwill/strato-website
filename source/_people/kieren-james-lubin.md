@@ -11,7 +11,7 @@ social:
 description: Early Ethereum contributor, pioneered Enterprise Blockchain and left it behind, consumer DeFi & RWAs.
 ---
 
-Kieren leads [BlockApps](https://blockapps.net) and [STRATO Mercata](https://stratomercata.com) as co-founder and CEO. He entered crypto in 2014 as an early Ethereum contributor, developing the project’s original Haskell client (which his team still uses) and participating in the early cryptocurrency research community.
+Kieren leads [BlockApps](https://blockapps.net) and [STRATO](https://strato.nexus) as co-founder and CEO. He entered crypto in 2014 as an early Ethereum contributor, developing the project’s original Haskell client (which his team still uses) and participating in the early cryptocurrency research community.
 
 After helping to pioneer enterprise blockchain deployments, he intentionally moved beyond that niche to build consumer-grade rails for tokenized real-world assets and DeFi.
 

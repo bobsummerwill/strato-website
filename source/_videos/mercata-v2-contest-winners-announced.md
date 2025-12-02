@@ -19,7 +19,7 @@ table_of_contents:
 ---
 
 
-Our long-awaited [Mercata V2 contest]("https://www.stratomercata.com/blog/announcing-the-mercata-v2-trading-and-testing-challenge") started at 5pm ET on Wednesday 17th September 2025.  The winners of the contest were announced in this live session exactly a week later.
+Our long-awaited [Mercata V2 contest]("https://www.strato.nexus/blog/announcing-the-mercata-v2-trading-and-testing-challenge") started at 5pm ET on Wednesday 17th September 2025.  The winners of the contest were announced in this live session exactly a week later.
 
 **STRATO Mercata V2** is our completely revamped application, which is due to be released later this year.  The contest is using our testnet running the latest pre-release version.
 
