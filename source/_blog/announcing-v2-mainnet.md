@@ -11,7 +11,7 @@ categories: ["Announcement"]
 
 Good things come to those who wait.
 
-It's been a long wait, we know, but it's finally here.  We are releasing [STRATO Mercata V2](https://app.stratomercata.com/) to the world.
+It's been a long wait, we know, but it's finally here.  We are releasing [STRATO Mercata V2](https://app.strato.nexus/) to the world.
 
 What's new? For end-users, absolutely everything.  It's a complete ground-up rebuild of the application.  Participants in our [July](/blog/announcing-mercata-v2-trading-competition/) and [September](/blog/announcing-mercata-v2-testing-challenge/) competitions got a sneak peek, but this will be fresh for everybody else.  Existing accounts and balances will carry forward into the new application.
 
