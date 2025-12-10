@@ -60,9 +60,13 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 **[[04:55]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=295s) John Crain:** No, so I was kind of hanging out with the New York Bitcoin crowd. Actually yeah, I had actually met, I think [John Lilic](https://x.com/johnlilic), which I forgot, but I met him at the like the [New York Bitcoin Center](https://bitcoincenternyc.com/). I don't know if you guys remember that.
 
+![bitcoin center](https://www.coindesk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs3y3vcno%2Fproduction%2Fe060c8728f0e586689cba0da22c64bf5760b8811-1393x679.jpg%3Fauto%3Dformat&w=1920&q=75)
+
 **[[05:10]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=310s) Victor Wong:** Yeah, we do. Yeah.
 
 **[[05:12]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=312s) John Crain:** Yeah. So I was hanging around and actually I was like, I was super into [Counterparty](https://www.counterparty.io/). So I was very much like Ethereum is too complicated. [Vitalik](https://earlydaysofeth.org/people/vitalik-buterin)'s full of shit. It's not going to work. And then the network launched and I was like, OK, I was wrong. Like, this is actually super cool. I have no problem changing. I was totally wrong, this is amazing. And I was just like googling Ethereum blockchain hackathon. I was trying to find, get deeper involved. I was trying to quit my day job and go full-time crypto. And so then I think I just googled it and it was like, oh there's this hackathon in two weeks and I applied with Charles and then yeah met you guys.
+
+![counterparty](https://images.ctfassets.net/23fkqdsgbpuj/4p6OdZyGyElxyVsG36rFUM/5aa759ed0962f0760eb0c3ecdd930677/counterparty-full.png)
 
 **[[05:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=352s) Victor Wong:** Yeah, and to be clear, to let everyone know that we were blown away by you and your brother Charles' project, and we gave you, I think, your first job, both of you in Web3, right? We gave you the...
 
@@ -70,15 +74,21 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 **[[06:10]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=370s) Victor Wong:** Yeah, I think we tried to give you a job on the spot because you guys were...
 
-**[[06:14]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=374s) John Crain:** Yeah, yeah. There was like a couple week consulting transition period while, you know. Yeah, I think that's true. Yeah. Maybe it was like we started like hourly, getting to know each other a little bit and then full time.
+**[[06:14]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=374s) John Crain:** Yeah, yeah.
+
+**Kieren James-Lubin**: There was like a couple week consulting transition period while, you know.
+
+**John Crain:** Yeah, I think that's true. Yeah. Maybe it was like we started like hourly, getting to know each other a little bit and then full time.
 
 **Bob Summerwill** Yeah. So with [Counterparty](https://www.counterparty.io/), you could have been on [Chris de Rose](https://iq.wiki/wiki/chris-derose) tech?
 
-**[[06:32]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=392s) Victor Wong:** Yeah, exactly. If only.
+**[[06:32]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=392s) John Crain:** Yeah, exactly. If only.
 
-**[[06:35]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=395s) John Crain:** So what inspired [SuperRare](https://superrare.com/)? I know when you were working with us, you kind of became our head of product and you were working on a bunch of those enterprise implementations. But what triggered you to kind of create [SuperRare](https://superrare.com/), which is for anyone who doesn't know, one of the first NFT platforms really out there?
+**[[06:35]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=395s) Victor Wong:** So what inspired [SuperRare](https://superrare.com/)? I know when you were working with us, you kind of became our head of product and you were working on a bunch of those enterprise implementations. But what triggered you to kind of create [SuperRare](https://superrare.com/), which is for anyone who doesn't know, one of the first NFT platforms really out there?
 
 **[[06:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=412s) John Crain:** Yeah, I, well, I mean, it was super interesting, right? We were all kind of on the ground floor at the Consensus office, or like at least me and [Kieren](/people/kieren-james-lubin) were hanging out there. And watching the ICO boom happen was fascinating. Cause I was like, I remember me and [Kieren](/people/kieren-james-lubin) talked a bunch about [ERC-20](https://eips.ethereum.org/EIPS/eip-20) tokens and like, I found it was super interesting that it was this very small bit of standard, a super simple protocol, very simple code. But like the adoption created this, there's massive wealth generation. And even if there were also lots of scams, I'd say generally net positive for humans in the economy. Like it was incredible to see that happen. And so then I saw some of the standards conversations around [ERC-721](https://eips.ethereum.org/EIPS/eip-721) and I saw the [CryptoPunks](https://www.cryptopunks.app/) launch and I was like, well, this is pretty crazy. If you think about the consumer web, it's all an image and a title tag and some metadata. It could be that the entire consumer web turns into NFTs and that I don't know exactly what the business model is going to look like, but the total addressable market is probably pretty large. So that got me into NFTs. And then on the flip side of that, I was also kind of in and around the New York art scene, like going to the art fairs. I had friends who were looking for gallery representation and kind of part of the business of art. And it just seemed obvious. I was like, oh, there's now a way to truly own digital assets. And this is obviously going to apply to digital art. So it's kind of like the marriage of my interest in the tech side, but then also my interests and passions around art.
+
+![cryptopunks](https://repository-images.githubusercontent.com/342481993/2ca22100-787d-11eb-93a8-342fc588015a)
 
 **[[08:25]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=505s) Victor Wong:** And like, what was it like to be at the forefront of the NFT explosion? Because you guys, like, I know for a long time you were building and it was like, oh, how's it going? And no one is really paying attention. And all of a sudden, next day, everyone's talking about NFTs.
 
@@ -94,9 +104,13 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 **[[10:08]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=608s) Victor Wong:** It's funny because I remember, if you recall, what later became the [Flow](https://flow.com/) guys doing [CryptoKitties](https://www.cryptokitties.co/). They were based in Vancouver and I was talking to them about running it on our blockchain and doing that kind of stuff too at the time. And I mean, you've done so much. One of the amazing things is the launch of the [Rare token](https://coinmarketcap.com/currencies/superrare/). And you guys seem to be one of the first projects that was really committed to sort of figuring out DAO governance in reality. What led to that and how did that go? What did you figure out there?
 
+![cryptokitties](https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2019/01/cryptokitties.jpg@webp)
+
 **[[10:38]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=638s) John Crain:** Yeah, I mean, early on, I was like part of what got me excited about Bitcoin and Ethereum is just the idea of these networks where the users of the networks also participate in upside of the network. There's the [Fat Protocol](https://www.usv.com/writing/2016/08/fat-protocols/) article that was super popular, like 2016. So just thinking about like, OK, what does monetization look like? And can you build platforms that are more like collaborative than extractive, where it's like, if you're [Meta](https://en.wikipedia.org/wiki/Meta_Platforms), you're just like, I'm just gonna extract as much metadata and sell ads, which is a great business, but partially for me, it was almost like a thought experiment of like, is it possible to build a network where you don't have to sell ads? And it could be like, maybe it's a marketplace as the business model. And then it's like collective ownership via the token. So yeah, I was drinking a lot of the crypto Kool-Aid at the time.
 
-**[[11:35]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=695s) Victor Wong:** Did you do it like classic ICO style? Was there like fixed price auction? How did the Rare get in there?
+![fat protocols](/images/usv.com/writing/2016/08/fat-protocols/fat-protocols.png)
+
+**[[11:35]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=695s) Victor Wong:** Did you do it like classic ICO style? Was there like fixed price auction? How did the [Rare](https://coinmarketcap.com/currencies/superrare/) get in there?
 
 **[[11:42]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=702s) John Crain:** Yeah, we actually just did a huge airdrop. Probably one of our mistakes. Yeah. So we should have probably sold a bunch of tokens, but we actually just gave them away. And yeah, I mean, there's plenty of challenges to like, DAOs are hard to manage and run. But it's cool to see the current administration kind of change tack and actually seem like they're interested in building and pushing forward. So.
 
@@ -106,7 +120,11 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 **[[12:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=772s) Victor Wong:** The dark ages.
 
-**[[12:54]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=774s) John Crain:** [Gary](https://en.wikipedia.org/wiki/Gary_Gensler)'s going to be turning up for a job somewhere soon, isn't he? Yeah. Man.
+![gary gensler](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Gary_Gensler%2C_SEC_Chair.jpg/250px-Gary_Gensler%2C_SEC_Chair.jpg)
+
+**[[12:54]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=774s) Bob Summerwill:** [Gary](https://en.wikipedia.org/wiki/Gary_Gensler)'s going to be turning up for a job somewhere soon, isn't he?
+
+**John Crain:** Yeah. Man.
 
 **[[13:00]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=780s) Kieren James-Lubin:** Do you think of it as, do you think of it more like it should be like a representative democracy? Like should it be like passing bills in there? I think they're like, there's proposals and there's like delegation usually is the model. Yeah. It can also be like, just like you got a couple of leaders, but the stake could call a confidence vote or something. Or like people like [futarchy](https://en.wikipedia.org/wiki/Futarchy) too. I haven't tried it yet, but what's that? Like [MetaDAO](https://docs.metadao.fi/) is trying to do that sort of thing. Yeah.
 
@@ -116,9 +134,17 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 **[[14:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=892s) John Crain:** Yeah, no it is, I mean it's kind of challenging. It's almost a paradox. But I think we've kind of always taken the minimal decentralization, so it's like you have it where it's useful. And then one example is like we were talking about token models early on, it was like maybe we'll have token holders vote on artists. And I was just like, that sounds like the most dramatic terrible thing I could ever imagine. It's like people voting, your art's terrible, you're like, oh my word.
 
-**[[15:20]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=920s) Kieren James-Lubin:** I mean, in the [pump.fun](https://pump.fun/) streamer heyday, I think that it could have really worked during that period of time. Yeah, you know, maybe we could have people stream. Yeah, it's like live going. Like, is the art good or bad? Watch this artist threaten to commit suicide. I did do stuff on a dating project once where you basically had to be voted in based on your photos, which just seems horrible. Yeah.
+**[[15:20]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=920s) Kieren James-Lubin:** I mean, in the [pump.fun](https://pump.fun/) streamer heyday, I think that it could have really worked during that period of time. Yeah, you know, maybe we could have people stream. Yeah, it's like live going. Like, is the art good or bad? Watch this artist threaten to commit suicide.
 
-**[[15:45]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=945s) Victor Wong:** Very, very evil. But there's right now 10 pages, remember those? Yes, yes, or Hot or Not or all of those. Oh, yeah, yeah. It's just brutal. But especially in places, the art industry can be quite vicious, right?
+![pump.fun](https://www.cryptopolitan.com/wp-content/uploads/2025/01/Pump.fun-Solana-SOL-below-200.webp)
+
+**Victor Wong:** I did do stuff on a dating project once where you basically had to be voted in based on your photos, which just seems horrible. Yeah.
+
+**[[15:45]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=945s) Victor Wong:** Very, very evil.
+
+**Bob Summerwill:** But there's rate me out of 10 pages, remember those?
+
+**Victor Wong:** Yes, yes, or Hot or Not or all of those. Oh, yeah, yeah. It's just brutal. But especially in places, the art industry can be quite vicious, right?
 
 **[[16:00]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=960s) John Crain:** Yeah, it's challenging and good art is subjective. I feel like the on-chain auctions, escrow on-chain, that makes a lot of sense. On-chain voting for which artists are good, that's kind of like, let people who are making decisions do their thing. And then if it starts to be, if things get out of hand, maybe the token holders can raise awareness, but yeah. And part of it too, actually early on, we thought we would be more of an open platform. And then as things progressed, there were more tools. We were just trying, we were building things, trying to add value. And yeah, there's a ton of open tooling. So early on, we kind of thought we might have super rare as the ultra curated view into the market. And then maybe you have another kind of open platform that anyone could use. But I'm curious, like what was the, you know, it's a two side market with artists and art buyers. Like, what do you think, like, did you have to get the artist first to convince them and how did you do that? Or did you have to get the art first?
 
@@ -160,13 +186,13 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 **[[22:42]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1362s) John Crain:** Yeah, we're seeing it. I feel like there's the green shoots of like, okay, here's what's possible. It totally makes sense. I think just like NFTs almost, they're a great, we've talked, a lot of people in crypto love talking about identity and stuff. And to me, it's like NFTs are a beautiful, very simple digital identity for whatever. You can pack anything you want in that metadata. It's just like a packet full of stuff. It's very simple. They're unique. They're pointers to one specific thing.
 
-**[[23:12]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1392s) Victor Wong:** Yeah, I mean, I love the way you talk about NFTs as certificates of authenticity, because I didn't realize this. We looked into the physical art market for a while and every auction at Sotheby's when they have a big piece, they have to research it effectively from scratch, right? They have to build that entire chain of provenance with every piece that they do, which is an insane amount of work every single time.
+**[[23:12]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1392s) Victor Wong:** Yeah, I mean, I love the way you talk about NFTs as certificates of authenticity, because I didn't realize this. We looked into the physical art market for a while and every auction at [Sotheby's](https://www.sothebys.com/) when they have a big piece, they have to research it effectively from scratch, right? They have to build that entire chain of provenance with every piece that they do, which is an insane amount of work every single time.
 
-**[[23:35]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1415s) John Crain:** Yeah, it's a very high friction process. The transactions are very, very high friction, which is good. Depending on where your position is in the market, obviously Sotheby's loves being the keeper of all secrets and information. But I think that's clearly going to be disintermediated with technology.
+**[[23:35]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1415s) John Crain:** Yeah, it's a very high friction process. The transactions are very, very high friction, which is good. Depending on where your position is in the market, obviously [Sotheby's](https://www.sothebys.com/) loves being the keeper of all secrets and information. But I think that's clearly going to be disintermediated with technology.
 
-**[[23:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1432s) Victor Wong:** Joe, any new assets or maybe are you guys just declaring war on the auction houses?
+**[[23:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1432s) Victor Wong:** So, any new assets or maybe are you guys just declaring war on the auction houses?  Houses, other high-end physical goods?
 
-**[[23:58]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1438s) John Crain:** Houses, other high-end physical goods? Yeah, I mean, we're focusing, our expansion, we launched the gallery earlier this year, offline gallery. It's on the Bowery right next to the museum. And we're showing physical, digital art, installations, projections, all sorts of different things. And yeah, I think our view, if you look at the models, the galleries are not doing great business wise, the auction houses are hurting.
+**[[23:58]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1438s) John Crain:** Yeah, I mean, we're focusing, our expansion, we launched the gallery earlier this year, offline gallery. It's on the Bowery right next to the museum. And we're showing physical, digital art, installations, projections, all sorts of different things. And yeah, I think our view, if you look at the models, the galleries are not doing great business wise, the auction houses are hurting.
 
 **[[24:25]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1465s) Kieren James-Lubin:** Stuff is so illiquid, right? I don't mean to interrupt, right? It's just enormous stuff sitting five years, 10 years, and it's feast or famine. Like if we print a bunch of money, probably get a bunch of transactions.
 
@@ -178,7 +204,7 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 **[[25:45]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1545s) Victor Wong:** So it sounds like even the big guys want more liquidity but they're not willing to let go of their proprietary information advantage, I guess.
 
-**[[25:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1552s) John Crain:** Yeah, yeah, exactly. And that's kind of also the paradox. It's like you'll have more liquidity if there's better access to information, but it's the classic, what's the innovators dilemma.
+**[[25:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1552s) John Crain:** Yeah, yeah, exactly. And that's kind of also the paradox. It's like you'll have more liquidity if there's better access to information, but it's the classic, what's [The Innovators Dilemma](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma).
 
 **[[26:02]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1562s) Victor Wong:** The innovators, let me, exactly. I was like tip my tongue. Yeah, classic innovators dilemma. I think some of the auction houses are even trying to offer loans to try and lock people up even longer, right, to their places.
 
@@ -190,23 +216,25 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 **[[26:48]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1608s) Victor Wong:** Jim, did you want to ask a question? You look like you came off mute.
 
-**[[26:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1612s) James Hormuzdiar:** Well, it's a little bit of a different topic, but I'll throw it in right now anyway. What has been the effect for good or bad of AI and art on what you're doing?
+**[[26:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1612s) Jim Hormuzdiar:** Well, it's a little bit of a different topic, but I'll throw it in right now anyway. What has been the effect for good or bad of AI and art on what you're doing?
 
 **[[27:02]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1622s) John Crain:** Yeah. As far as the startup goes, it's been great. We had a little robot on our Slack you can talk to that does things for you. As far as the art market goes, I think it's also been kind of great. In my mind, this is just a new tool that unlocks creative, you can do different creative things.
 
-**[[27:22]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1642s) James Hormuzdiar:** You're encouraging it then.
+**[[27:22]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1642s) Jim Hormuzdiar:** You're encouraging it then.
 
-**[[27:24]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1644s) John Crain:** Yeah. Oh yeah. We have tons of artists use AI. I mean, there's also tons of artists we work with who hate it and think it's the end of all creativity. I think just if you look, I think what it really enables is somebody to do more complex things. It's like where you can, all the grunt work you don't have to do. So now maybe instead of making one still image, you're going to do insane world building where you can go in, the art's just more interactive. And actually the first art we ever sold on [SuperRare](https://superrare.com/) was kind of generated via GANs, like adversarial networks, voting on outcomes. So I think it's inevitable, it's gonna happen. It's kind of like digital cameras were the end of photography and they obviously were not.
+**[[27:24]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1644s) John Crain:** Yeah. Oh yeah. We have tons of artists use AI. I mean, there's also tons of artists we work with who hate it and think it's the end of all creativity. I think just if you look, I think what it really enables is somebody to do more complex things. It's like where you can, all the grunt work you don't have to do. So now maybe instead of making one still image, you're going to do insane world building where you can go in, the art's just more interactive. And actually the first art we ever sold on [SuperRare](https://superrare.com/) was kind of generated via [GANs ("Generative Adversarial Network)](https://en.wikipedia.org/wiki/Generative_adversarial_network), like adversarial networks, voting on outcomes. So I think it's inevitable, it's gonna happen. It's kind of like digital cameras were the end of photography and they obviously were not.
 
 **[[28:10]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1690s) Victor Wong:** Do you think going back to the metadata and certificates of authenticity that proving some part was based, done by a human will be valued into art or any kind of creation?
 
 **[[28:22]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1702s) John Crain:** Yeah. I mean, I think, yeah, just if you, it's super amazing to see the rate at which content's being created and people, it's like, you can watch a video of like, that person didn't actually say that, but it looks like they did. I think that's where you're like, nobody ever answers a random phone number. If someone's calling you and it's not in your phone, you're like, I literally never answer this. I don't know who does that. You'd have to be pretty insane. It's sort of like you've kind of certified the numbers, and I think it'll end up being the same with content and art and stuff where it's like, if it isn't signed somehow cryptographically, you'll probably just assume it's fake because there's no real way to know.
 
-**[[29:05]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1745s) Victor Wong:** Have you seen much interest on the Bitcoin side in terms of ordinals and inscriptions and stamps and runes? How is that looking?
+**[[29:05]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1745s) Bob Summerwill:** Have you seen much interest on the Bitcoin side in terms of [Ordinals](https://ordinals.com/) and [Inscriptions](https://docs.ordinals.com/inscriptions.html) and [STAMPS](https://github.com/mikeinspace/stamps) and [Runes](https://github.com/luminexord/runes)? How is that looking?
 
-**[[29:12]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1752s) John Crain:** Yeah, we've done a couple of projects on runes with artists and yeah, it's super interesting. I think there's going to be art on many blockchains. Obviously, Bitcoin and Ethereum being the most secure probably have the highest likelihood of it lasting. But yeah, it's actually, people really like ordinals. It's funny. One of the sort of paradoxes that are like the funny things we ran into is early on, we would talk to investors and they're like, you need to get rid of the wallet. It's too complicated. But actually it kind of ends up being this, like, you gotta know all the right terms. It's almost like you get the secret incantation, you get inducted into the club and you know how it works. And so like, I think people really like that. Ordinals are a little more complex and harder to understand than NFTs on Ethereum. Which is just, yeah, it's sort of, that's a funny anecdote, but they're quite popular. I think they'll be around for a while.
+![ordinals](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-z7Y4kI2GQWo5r3-YIsrCgdLCI5UtJQXLWA&s)
 
-**[[30:10]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1810s) James Hormuzdiar:** And I mean another difference you have there, right, is that they're doing the data carrying on chain as well versus an external URL which is another interesting difference.
+**[[29:12]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1752s) John Crain:** Yeah, we've done a couple of projects on [Runes](https://github.com/luminexord/runes) with artists and yeah, it's super interesting. I think there's going to be art on many blockchains. Obviously, Bitcoin and Ethereum being the most secure probably have the highest likelihood of it lasting. But yeah, it's actually, people really like [Ordinals](https://ordinals.com/). It's funny. One of the sort of paradoxes that are like the funny things we ran into is early on, we would talk to investors and they're like, you need to get rid of the wallet. It's too complicated. But actually it kind of ends up being this, like, you gotta know all the right terms. It's almost like you get the secret incantation, you get inducted into the club and you know how it works. And so like, I think people really like that [Ordinals](https://ordinals.com/) are a little more complex and harder to understand than NFTs on Ethereum. Which is just, yeah, it's sort of, that's a funny anecdote, but they're quite popular. I think they'll be around for a while.
+
+**[[30:10]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1810s) Bob Summerwill:** And I mean another difference you have there, right, is that they're doing the data carrying on chain as well versus an external URL which is another interesting difference.
 
 **[[30:20]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1820s) John Crain:** Yeah, yeah, totally.
 
@@ -216,9 +244,11 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 **[[31:25]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1885s) Victor Wong:** Beyond art, what do you see as the next area? What's the next areas that are going to need these kind of provenance or these kind of certificates of authenticity? I can think of a million, but I'm just curious from your point of view, where do you see the next elements kind of getting into it first?
 
-**[[31:42]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1902s) John Crain:** Yeah, I mean I think in general it's like luxury assets with, NFTs are still more expensive to create than not having one. You just print one out and then the ID lives in your database. Yeah. And I think but it's going to be like, the customers are going to have to demand it because a lot of the brokers and folks, they do their information advantage, so they don't really want this to exist. But I think it just makes so much sense. It's just hard to imagine that it doesn't happen. There's people taking wine very seriously, issuing NFTs and building secondary markets. I think part of it's an asset that's kind of fun to speculate on, but also you do like, there's a high likelihood you might have somebody send you the NFT. It's kind of like wine, watches. Handbags, I think are a big one.
+**[[31:42]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1902s) John Crain:** Yeah, I mean I think in general it's like luxury assets with, NFTs are still more expensive to create than not having one. You just print one out and then the ID lives in your database. Yeah. And I think but it's going to be like, the customers are going to have to demand it because a lot of the brokers and folks, they do their information advantage, so they don't really want this to exist. But I think it just makes so much sense. It's just hard to imagine that it doesn't happen. There's people taking wine very seriously, issuing NFTs and building secondary markets. I think part of it's an asset that's kind of fun to speculate on, but also you do like, there's a high likelihood you might have somebody send you the NFT. It's kind of like wine, watches.
 
-**[[32:30]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1950s) Victor Wong:** Exactly. Yeah. Yeah.
+**Victor Wong:** Handbags, I think are a big one.
+
+**[[32:30]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1950s) John Crain:** Exactly. Yeah. Yeah.
 
 **[[32:32]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=1952s) John Crain:** One of the really popular ones right now is trading cards. So they're like...
 
@@ -236,9 +266,15 @@ Okay, we are live, and we have a very special episode today. We are talking abou
 
 ![ron paul](https://media.giphy.com/media/rl0FOxdz7CcxO/giphy.gif)
 
-**[[33:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=2032s) Victor Wong:** We need the Mission Accomplished banner. Yeah. Oh my goodness. Yeah, exactly. Well, John, thank you for your time. And as always, we're really glad that you're doing so well. And where can people find you and learn more about all the stuff you do?
+**[[33:52]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=2032s) Victor Wong:** We need the Mission Accomplished banner.
+
+**Bob Summerwill:** Oh my goodness, no.
+
+**John Crain:** Yeah, exactly.
 
 ![george bush](https://www.aljazeera.com/wp-content/uploads/2008/04/1_246917_1_2.jpeg)
+
+**Victor Wong:** Well, John, thank you for your time. And as always, we're really glad that you're doing so well. And where can people find you and learn more about all the stuff you do?
 
 **[[34:08]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=2048s) John Crain:** Yeah. On X at [@SuperRareJohn](https://x.com/SuperRareJohn) at [@SuperRare](https://x.com/SuperRare). Yeah. You should also, there's currently a show at the gallery that's wrapping up, but we have a new, there's an **XCOPY show December 10th**. So if anyone's in town, swing through.
 
@@ -249,7 +285,9 @@ Okay, we are live, and we have a very special episode today. We are talking abou
   description='Physical gallery space on the Bowery in New York City showcasing digital art, physical art, installations, and projections from the <a href="https://superrare.com/">SuperRare</a> community.'
 %}
 
-**[[34:25]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=2065s) Kieren James-Lubin:** You said an annual gallery one more time? I missed it.
+**[[34:25]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=2065s) Kieren James-Lubin:** You said about a gallery one more time? I missed it.
+
+![gallery](https://campaigns.superrare.com/hubfs/FdR_bFxVIAE6-XW.jpeg)
 
 **[[34:28]](https://www.youtube.com/watch?v=mqStnmOwuR0&t=2068s) John Crain:** Oh yeah, [Offline by SuperRare](https://offline.superrare.com/).
 
