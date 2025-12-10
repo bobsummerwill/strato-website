@@ -9,11 +9,14 @@ categories: ["General"]
 
 The STRATO ecosystem just became even more rewarding. Whether you're lending, swapping, or minting, every interaction you make on the platform now earns you **Reward Points**—giving you even more value for being an active contributor to the network.
 
+The inaugural campaign features **1,000,000 Reward Points** distributed across key activities that power the ecosystem, from minting USDST to providing liquidity.
+
 In this post, we'll explore how the Rewards Program works, how you can start earning today, and how to track and claim your rewards effortlessly.
 
 ## Table of Contents
 
 - [How to Earn Reward Points](#how-to-earn-reward-points)
+- [Campaign Allocation](#campaign-allocation)
 - [Tracking Your Rewards](#tracking-your-rewards)
 - [Claiming Your Rewards](#claiming-your-rewards)
 - [Auto-Save: Your Funds Start Working Immediately](#auto-save-your-funds-start-working-immediately)
@@ -39,6 +42,34 @@ Earn points each time you perform these actions:
 
 - **Swap Tokens** – Every swap earns you a one-time rewards boost.
 - **Borrow from Lending Pool** – Earn points the moment you take out a loan.
+
+## Campaign Allocation
+
+The inaugural STRATO Rewards campaign features **1,000,000 Reward Points** distributed across key ecosystem activities. Here's how the points are allocated:
+
+| Activity | Description | Allocation | Points |
+|----------|-------------|------------|--------|
+| CDP USDST Mint | Borrow USDST using collateral | 30% | 300,000 |
+| Crypto Swap LP Liquidity | Supply assets to earn interest | 20% | 200,000 |
+| Metals Swap LP Liquidity | Supply assets to earn interest | 20% | 200,000 |
+| Lending Pool Liquidity | Lend USDST to the lending pool | 10% | 100,000 |
+| Safety Module | Participate in the safety module | 10% | 100,000 |
+| Lending Pool Borrow | Borrow from the lending pool | 5% | 50,000 |
+| Swaps | Exchange tokens on the platform | 5% | 50,000 |
+
+### Allocation Breakdown
+
+```
+CDP USDST Mint               ██████████████████████████████ 30%
+Crypto Swap LP               ████████████████████ 20%
+Metals Swap LP               ████████████████████ 20%
+Lending Pool Liquidity       ██████████ 10%
+Safety Module                ██████████ 10%
+Lending Pool Borrow          █████ 5%
+Swaps                        █████ 5%
+```
+
+The allocation reflects the strategic importance of each activity in building a robust, liquid, and secure DeFi ecosystem. Activities that provide ongoing liquidity and stability—such as minting USDST and supplying liquidity to swap pools—receive the largest share of rewards.
 
 ## Tracking Your Rewards
 
