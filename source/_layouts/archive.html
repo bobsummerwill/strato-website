@@ -4,6 +4,7 @@ layout: default
 
 {% if site.blog and site.blog.size > 0 %}
     {% assign blog_with_dates = site.blog | where_exp: "item", "item.date" %}
+    {% assign sorted_blog = blog_with_dates | sort: 'date' | reverse %}
     {% assign target_year_month = page.year | append: "-" | append: page.month %}
     {% assign archive_posts = "" | split: "" %}
     {% for post in blog_with_dates %}
@@ -14,7 +15,8 @@ layout: default
     {% endfor %}
     {% assign sorted_posts = archive_posts | sort: 'date' | reverse %}
 {% else %}
-    {% assign sorted_posts = "" %}
+    {% assign sorted_blog = "" | split: "" %}
+    {% assign sorted_posts = "" | split: "" %}
 {% endif %}
 
 <div class="blog-container">
@@ -25,51 +27,7 @@ layout: default
         <div class="blog-posts">
             
             {% for post in sorted_posts %}
-            <article class="blog-post-card">
-                {% if post.img %}
-                <div class="blog-post-image">
-                    <a href="{{ post.url | relative_url }}">
-                        <img src="{{ post.img }}" alt="{{ post.title }}" />
-                    </a>
-                </div>
-                {% endif %}
-                
-                <div class="blog-post-content">
-                    <h2>
-                        <a href="{{ post.url | relative_url }}">
-                            {% if post.lowercase_title %}{{ post.lowercase_title }}{% else %}{{ post.title }}{% endif %}
-                        </a>
-                    </h2>
-                    
-                    <div class="blog-post-meta">
-                        {% if post.date %}
-                            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-                        {% endif %}
-                        {% if post.author %}
-                            / {{ post.author }}
-                        {% endif %}
-                    </div>
-                    
-                    {% if post.description %}
-                    <p class="blog-post-excerpt">
-                        {{ post.description }}
-                    </p>
-                    {% else %}
-                    <p class="blog-post-excerpt">
-                        {{ post.content | strip_html | truncatewords: 50 }}
-                    </p>
-                    {% endif %}
-                    
-                    <div class="blog-post-footer">
-                        {% if post.categories and post.categories.size > 0 %}
-                            <span class="blog-post-category">{{ post.categories | join: ", " }}</span>
-                        {% else %}
-                            <span class="blog-post-category">General</span>
-                        {% endif %}
-                        <a href="{{ post.url | relative_url }}" class="blog-read-more">read more ›</a>
-                    </div>
-                </div>
-            </article>
+            {% include blog-post-card.html post=post %}
             {% endfor %}
             
             {% if sorted_posts.size == 0 %}
@@ -82,7 +40,7 @@ layout: default
         <div class="sidebar-section">
             <h3>Recent Posts</h3>
             <ul class="recent-posts-list">
-                {% for post in sorted_posts limit:5 %}
+                {% for post in sorted_blog limit:5 %}
                 <li>
                     <a href="{{ post.url | relative_url }}">
                         {% if post.lowercase_title %}{{ post.lowercase_title }}{% else %}{{ post.title }}{% endif %}
@@ -99,7 +57,7 @@ layout: default
                 <li><a href="{{ '/blog/' | relative_url }}">All Posts</a></li>
                 {% for category in all_categories %}
                     {% if category != "" %}
-                        {% assign cat_slug = category | strip | downcase | replace: " ", "-" | replace: "'", "" %}
+                        {% assign cat_slug = category | strip | slugify %}
                         {% assign cat_count = site.blog | where_exp: "item", "item.categories contains category" | size %}
                         <li>
                             <a href="{{ '/blog/category/' | append: cat_slug | append: '/' | relative_url }}">
@@ -114,7 +72,7 @@ layout: default
         
         <div class="sidebar-section">
             <h3>Archives</h3>
-            {% assign blog_with_dates = site.blog | where_exp: "item", "item.date" | sort: 'date' | reverse %}
+            {% assign blog_with_dates = sorted_blog %}
             {% assign archive_list = "" | split: "" %}
             {% for post in blog_with_dates %}
                 {% assign year_month = post.date | date: "%Y-%m" %}

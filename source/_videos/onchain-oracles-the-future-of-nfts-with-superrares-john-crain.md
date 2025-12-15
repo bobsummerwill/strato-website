@@ -27,6 +27,8 @@ img: /images/covers-for-spaces/onchain-oracles-the-future-of-nfts-with-superrare
 {% include content-embed.html
   src="https://www.youtube.com/embed/mqStnmOwuR0?start=65"
   img="/images/youtube.com/2025.12.10/strato_net/mqStnmOwuR0/screenshot-of-michael-spotlight.png"
+  thumb_fit="contain"
+  thumb_zoom="1"
   title="Michael Tan demo of Rewards Program"
   site="https://www.youtube.com/@strato_net"
   date="December 10, 2025"
