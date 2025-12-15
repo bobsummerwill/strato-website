@@ -22,8 +22,8 @@
           {% else %}
             {% if include.img %}
             <!-- Custom thumbnail for iframe embeds -->
-            <div class="content-embed-thumbnail-wrapper" onclick="this.style.display='none'; var iframe=this.nextElementSibling; iframe.src=iframe.dataset.src; return false;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; background-color: #000; z-index: 1; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-              <img src="{{ include.img }}" alt="{{ include.title | escape }}" style="width: 100%; height: auto; flex-shrink: 0;" loading="lazy">
+            <div class="content-embed-thumbnail-wrapper" onclick="this.style.display='none'; var iframe=this.nextElementSibling; iframe.src=iframe.dataset.src; return false;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; background-color: #000; z-index: 1; display: flex; align-items: center; justify-content: center;">
+              <img src="{{ include.img }}" alt="{{ include.title | escape }}" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
               <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background-color: rgba(255,0,0,0.8); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
                 <div style="width: 0; height: 0; border-left: 18px solid white; border-top: 12px solid transparent; border-bottom: 12px solid transparent; margin-left: 4px;"></div>
               </div>
