@@ -2238,6 +2238,24 @@ article .blog-tags .tag {
     width: 100% !important;
     max-width: 100% !important;
   }
+
+  /*
+    Fix: content-area image rules were shrinking embed thumbnails.
+    We have a generic rule that forces `.video-content img` / `article .blog-content img`
+    to `max-width: 50% !important` on desktop. That is correct for inline content images,
+    but wrong for embed-card thumbnails, which should fill their embed frame.
+  */
+  .blog-embed-card img,
+  .content-embed-card img,
+  .content-embed-thumbnail-wrapper img {
+    max-width: 100% !important;
+  }
+
+  .content-embed-thumbnail-wrapper img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: inherit;
+  }
 }
 /* Highlight boxes for important content */
 .highlight-yellow {

@@ -130,8 +130,8 @@ module Jekyll
       @site = site
       @base = base
 
-      # Create URL-friendly slug from category name
-      category_slug = category.downcase.gsub(/[^\w\s-]/, '').gsub(/[\s_]+/, '-')
+      # Create URL-friendly slug from category name (match Liquid's `slugify`)
+      category_slug = Jekyll::Utils.slugify(category.to_s, mode: 'default')
 
       # Set the directory and filename for this category page
       @dir = File.join('blog', 'category', category_slug)

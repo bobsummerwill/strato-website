@@ -57,7 +57,7 @@ layout: default
                 <li><a href="{{ '/blog/' | relative_url }}">All Posts</a></li>
                 {% for category in all_categories %}
                     {% if category != "" %}
-                        {% assign cat_slug = category | strip | downcase | replace: " ", "-" | replace: "'", "" %}
+                        {% assign cat_slug = category | strip | slugify %}
                         {% assign cat_count = site.blog | where_exp: "item", "item.categories contains category" | size %}
                         <li>
                             <a href="{{ '/blog/category/' | append: cat_slug | append: '/' | relative_url }}">
