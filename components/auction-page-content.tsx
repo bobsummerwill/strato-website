@@ -1,5 +1,6 @@
 "use client"
 
+import { useState } from "react"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import {
@@ -10,12 +11,16 @@ import {
   FileText,
   Send,
   Twitter,
-  Mail,
+  MessageCircle,
   Loader2,
   RotateCcw,
+  Check,
 } from "lucide-react"
 import { useNewsletter } from "@/hooks/use-newsletter"
 import { LottiePlayer } from "@/components/lottie-player"
+
+const AUCTION_SIGNUP_ENDPOINT =
+  process.env.NEXT_PUBLIC_AUCTION_SIGNUP_ENDPOINT ?? ""
 
 const ELEVATION_LOTTIE_SRC = "/lotties/elevation.lottie"
 
@@ -25,22 +30,19 @@ const TEAL = "#00D4AA"
 
 const infoLinks = [
   {
-    icon: Gavel,
-    title: "How does it work?",
-    body: "A Continuous Clearing Auction (CCA) where bids stay private until close. Everyone pays the same final clearing price.",
-    href: "https://docs.strato.nexus",
+    icon: Lock,
+    title: "Hardfi — hard assets, on-chain",
+    body: "STRATO tokenizes gold, silver, and other vaulted commodities so they can move, settle, and back loans on-chain — 24/7, without a broker.",
   },
   {
     icon: FileText,
-    title: "About $STRATO tokenomics",
-    body: "Token supply, distribution, vesting schedules, and the role of $STRATO across the ecosystem.",
-    href: "https://docs.strato.nexus",
+    title: "The ratio gap",
+    body: "Stablecoins now sit near 1% of total US Treasury debt. Tokenized gold sits at 1–2 basis points of the global gold stock. Dollar tokenization scaled. Gold tokenization has not.",
   },
   {
-    icon: Lock,
-    title: "Read the STRATO litepaper",
-    body: "Technical overview of the protocol, the auction mechanism, and how privacy is preserved on-chain.",
-    href: "https://docs.strato.nexus",
+    icon: Gavel,
+    title: "What STRATO ships — GOLDST & SILVST",
+    body: "Each backed 1:1 by audited, insured, vaulted metal. Use them as collateral, borrow against them, swap them, or redeem them for the physical bars.",
   },
 ]
 
@@ -88,23 +90,6 @@ export function AuctionPageContent() {
             </h1>
           </section>
 
-          {/* Intro video */}
-          <section className="mb-10">
-            <div className="overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-2 shadow-[0_2px_20px_rgba(29,46,134,0.06)]">
-              <video
-                controls
-                autoPlay
-                muted
-                playsInline
-                preload="auto"
-                className="block h-auto w-full rounded-xl bg-black"
-              >
-                <source src="/videos/strato-hardfi.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </section>
-
           {/* Auction CTA */}
           <section
             className="relative mb-10 overflow-hidden rounded-2xl shadow-[0_8px_40px_rgba(29,46,134,0.25)]"
@@ -150,7 +135,7 @@ export function AuctionPageContent() {
                   Auction coming soon
                 </div>
                 <h3 className="mb-4 text-3xl font-extrabold leading-[1.1] text-white md:text-[40px]">
-                  <span style={{ color: TEAL }}>12.5%</span> of $STRATO
+                  <span style={{ color: TEAL }}>2.5%</span> of $STRATO
                   <br />
                   goes public.
                 </h3>
@@ -159,20 +144,7 @@ export function AuctionPageContent() {
                   bids kept private until the auction closes.
                 </p>
                 <div className="flex flex-col items-start gap-3">
-                  <button
-                    type="button"
-                    disabled
-                    aria-disabled="true"
-                    className="relative inline-flex cursor-not-allowed items-center gap-2 rounded-full border border-white/20 bg-white/10 px-8 py-4 text-base font-bold text-white/60 backdrop-blur-sm"
-                  >
-                    <span>Place your bid</span>
-                    <span
-                      className="ml-1 rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.15em]"
-                      style={{ background: TEAL, color: NAVY }}
-                    >
-                      Coming soon
-                    </span>
-                  </button>
+                  <BidSignupForm />
                   <p className="text-xs font-medium uppercase tracking-[0.18em] text-white/50">
                     Bids private · Settled on Ethereum
                   </p>
@@ -202,84 +174,135 @@ export function AuctionPageContent() {
             </div>
           </section>
 
-          {/* Positioning cards */}
+          {/* Intro video */}
+          <section className="mb-10">
+            <div className="overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-2 shadow-[0_2px_20px_rgba(29,46,134,0.06)]">
+              <video
+                controls
+                autoPlay
+                muted
+                playsInline
+                preload="auto"
+                className="block h-auto w-full rounded-xl bg-black"
+              >
+                <source src="/videos/strato-hardfi.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </section>
+
+          {/* Primary explainer cards */}
           <section className="mb-10 grid grid-cols-1 gap-4 md:grid-cols-3">
-            <div className="rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-6 shadow-[0_2px_20px_rgba(29,46,134,0.06)]">
+            <a
+              href="https://docs.strato.nexus"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-6 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
+            >
               <p
                 className="mb-4 text-[11px] font-bold uppercase tracking-[0.2em]"
                 style={{ color: ACCENT }}
               >
-                01 — Hardfi
+                01 — How It Works
               </p>
               <h4
                 className="mb-3 text-xl font-bold leading-[1.2]"
                 style={{ color: NAVY }}
               >
-                Hard assets, on-chain.
+                A Continuous Clearing Auction.
               </h4>
               <p className="text-[13px] leading-[1.6] text-[#5A6178]">
-                STRATO tokenizes gold, silver, and other vaulted commodities so
-                they can move, settle, and back loans on-chain — 24/7, without a
-                broker.
+                Bids stay private until the auction closes. Everyone pays the
+                same final clearing price — set by where supply meets demand.
               </p>
-            </div>
-            <div
-              className="rounded-2xl border border-[rgba(61,85,197,0.15)] p-6 shadow-[0_2px_20px_rgba(29,46,134,0.06)]"
+              <span
+                className="mt-5 inline-flex items-center gap-1 text-[12px] font-semibold"
+                style={{ color: ACCENT }}
+              >
+                Read in docs
+                <ArrowUpRight
+                  size={14}
+                  className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </span>
+            </a>
+            <a
+              href="https://docs.strato.nexus"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col rounded-2xl border border-[rgba(61,85,197,0.15)] p-6 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.25)]"
               style={{ background: NAVY }}
             >
               <p
                 className="mb-4 text-[11px] font-bold uppercase tracking-[0.2em]"
                 style={{ color: TEAL }}
               >
-                02 — The Ratio Gap
+                02 — Tokenomics
               </p>
               <h4 className="mb-3 text-xl font-bold leading-[1.2] text-white">
-                Dollars scaled. Metals haven&rsquo;t yet.
+                $STRATO supply &amp; distribution.
               </h4>
               <p className="text-[13px] leading-[1.6] text-[rgba(255,255,255,0.75)]">
-                Stablecoins now sit near{" "}
+                Token supply, allocation, vesting schedules, and the role of{" "}
                 <span className="font-semibold" style={{ color: TEAL }}>
-                  1% of total US Treasury debt
-                </span>
-                . Tokenized gold sits at{" "}
-                <span className="font-semibold" style={{ color: TEAL }}>
-                  1–2 basis points
+                  $STRATO
                 </span>{" "}
-                of the global gold stock. Dollar tokenization scaled. Gold
-                tokenization has not.
+                across the ecosystem.
               </p>
-            </div>
-            <div className="rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-6 shadow-[0_2px_20px_rgba(29,46,134,0.06)]">
+              <span
+                className="mt-5 inline-flex items-center gap-1 text-[12px] font-semibold"
+                style={{ color: TEAL }}
+              >
+                Read in docs
+                <ArrowUpRight
+                  size={14}
+                  className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </span>
+            </a>
+            <a
+              href="https://docs.strato.nexus"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-6 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
+            >
               <p
                 className="mb-4 text-[11px] font-bold uppercase tracking-[0.2em]"
                 style={{ color: ACCENT }}
               >
-                03 — What STRATO Ships
+                03 — Litepaper
               </p>
               <h4
                 className="mb-3 text-xl font-bold leading-[1.2]"
                 style={{ color: NAVY }}
               >
-                GOLDST &amp; SILVST.
+                The full technical overview.
               </h4>
               <p className="text-[13px] leading-[1.6] text-[#5A6178]">
-                Each backed 1:1 by audited, insured, vaulted metal. Use them as
-                collateral, borrow against them, swap them, or redeem them for
-                the physical bars.
+                A walkthrough of the protocol, the auction mechanism, and how
+                privacy is preserved on-chain.
               </p>
-            </div>
+              <span
+                className="mt-5 inline-flex items-center gap-1 text-[12px] font-semibold"
+                style={{ color: ACCENT }}
+              >
+                Read in docs
+                <ArrowUpRight
+                  size={14}
+                  className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </span>
+            </a>
           </section>
 
-          {/* Info link cards (mirrors zama "How does it work?" / tokenomics / litepaper) */}
-          <SectionLabel>Learn more</SectionLabel>
+          {/* Positioning footnotes — temporarily hidden */}
+          {/*
+          <SectionLabel>Why this matters</SectionLabel>
           <section className="mb-10 overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white shadow-[0_2px_20px_rgba(29,46,134,0.06)]">
-            {infoLinks.map(({ icon: Icon, title, body, href }, idx) => (
-              <a
+            {infoLinks.map(({ icon: Icon, title, body }, idx) => (
+              <div
                 key={title}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`group flex items-center gap-5 px-5 py-5 transition-colors hover:bg-[rgba(61,85,197,0.04)] md:px-7 md:py-6 ${
+                className={`flex items-center gap-5 px-5 py-5 md:px-7 md:py-6 ${
                   idx > 0 ? "border-t border-[rgba(61,85,197,0.1)]" : ""
                 }`}
               >
@@ -300,13 +323,10 @@ export function AuctionPageContent() {
                     {body}
                   </p>
                 </div>
-                <ArrowUpRight
-                  size={20}
-                  className="shrink-0 text-[#8B92A8] transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                />
-              </a>
+              </div>
             ))}
           </section>
+          */}
 
           {/* Updates / newsletter */}
           <section
@@ -341,10 +361,10 @@ export function AuctionPageContent() {
                   Follow on 𝕏
                 </SocialLink>
                 <SocialLink
-                  href="mailto:info@blockapps.net"
-                  icon={<Mail size={14} />}
+                  href="https://discord.gg/cEJDGSMsg"
+                  icon={<MessageCircle size={14} />}
                 >
-                  Email us
+                  Discord
                 </SocialLink>
               </div>
             </div>
@@ -460,6 +480,91 @@ function FooterLink({
     >
       {children}
     </a>
+  )
+}
+
+function BidSignupForm() {
+  const [email, setEmail] = useState("")
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">(
+    "idle",
+  )
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+    if (!email || !email.includes("@") || status === "loading") return
+
+    setStatus("loading")
+
+    try {
+      if (!AUCTION_SIGNUP_ENDPOINT) {
+        throw new Error("Signup endpoint not configured")
+      }
+
+      await fetch(AUCTION_SIGNUP_ENDPOINT, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify({
+          email,
+          source: "auction-page",
+          submittedAt: new Date().toISOString(),
+        }),
+      })
+
+      setStatus("success")
+    } catch {
+      setStatus("error")
+    }
+  }
+
+  if (status === "success") {
+    return (
+      <div
+        className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm"
+      >
+        <Check size={16} style={{ color: TEAL }} />
+        You&apos;re on the list. We&apos;ll be in touch.
+      </div>
+    )
+  }
+
+  return (
+    <form
+      onSubmit={handleSubmit}
+      className="flex w-full max-w-[440px] flex-col gap-2 sm:flex-row"
+    >
+      <input
+        type="email"
+        required
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        placeholder="Enter your email to bid"
+        disabled={status === "loading"}
+        aria-label="Email address"
+        className="flex-1 rounded-full border border-white/20 bg-white/10 px-5 py-3 text-sm font-medium text-white placeholder:text-white/50 backdrop-blur-sm focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-white/20 disabled:opacity-60"
+      />
+      <button
+        type="submit"
+        disabled={status === "loading"}
+        className="inline-flex items-center justify-center gap-1.5 rounded-full px-6 py-3 text-sm font-bold transition-transform hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:hover:translate-y-0"
+        style={{ background: TEAL, color: NAVY }}
+      >
+        {status === "loading" ? (
+          <>
+            <Loader2 size={14} className="animate-spin" /> Submitting
+          </>
+        ) : (
+          <>
+            Notify me <ArrowRight size={14} />
+          </>
+        )}
+      </button>
+      {status === "error" && (
+        <p className="mt-1 w-full text-xs font-medium text-red-200 sm:absolute sm:translate-y-12">
+          Something went wrong. Try again?
+        </p>
+      )}
+    </form>
   )
 }
 
