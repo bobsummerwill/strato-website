@@ -6,9 +6,6 @@ import { Footer } from "@/components/footer"
 import {
   ArrowUpRight,
   ArrowRight,
-  Lock,
-  Gavel,
-  FileText,
   Send,
   Twitter,
   MessageCircle,
@@ -30,19 +27,19 @@ const TEAL = "#00D4AA"
 
 const infoLinks = [
   {
-    icon: Lock,
+    lottie: "/lotties/hardest-assets-3.lottie",
     title: "Hardfi — hard assets, on-chain",
-    body: "STRATO tokenizes gold, silver, and other vaulted commodities so they can move, settle, and back loans on-chain — 24/7, without a broker.",
+    body: "Trillions in gold and silver sit in vaults, illiquid and idle. DeFi built the rails. HardFi puts real assets on them. This is what finance looks like when hard assets can finally move.",
   },
   {
-    icon: FileText,
-    title: "The ratio gap",
-    body: "Stablecoins now sit near 1% of total US Treasury debt. Tokenized gold sits at 1–2 basis points of the global gold stock. Dollar tokenization scaled. Gold tokenization has not.",
+    lottie: "/lotties/card-01-loop.json",
+    title: "The Ratio Gap",
+    body: "Dollar tokenization scaled. Gold tokenization has not. STRATO is the infrastructure that closes that gap.",
   },
   {
-    icon: Gavel,
-    title: "What STRATO ships — GOLDST & SILVST",
-    body: "Each backed 1:1 by audited, insured, vaulted metal. Use them as collateral, borrow against them, swap them, or redeem them for the physical bars.",
+    lottie: "/lotties/hardest-assets-1.lottie",
+    title: "What STRATO ships",
+    body: "Real metal. On-chain. Backed 1:1, audited, insured, vaulted. Borrow against it, earn on it, swap it, or redeem it for the physical bar. ",
   },
 ]
 
@@ -92,7 +89,8 @@ export function AuctionPageContent() {
 
           {/* Auction CTA */}
           <section
-            className="relative mb-10 overflow-hidden rounded-2xl shadow-[0_8px_40px_rgba(29,46,134,0.25)]"
+            id="auction-cta"
+            className="relative mb-10 scroll-mt-24 overflow-hidden rounded-2xl shadow-[0_8px_40px_rgba(29,46,134,0.25)]"
             style={{
               background: `linear-gradient(135deg, ${NAVY} 0%, #2D3FB0 55%, ${ACCENT} 100%)`,
             }}
@@ -119,7 +117,7 @@ export function AuctionPageContent() {
               aria-hidden
             />
 
-            <div className="relative grid grid-cols-1 md:grid-cols-[1.1fr_1fr] md:items-stretch">
+            <div className="relative grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] lg:items-stretch">
               <div className="p-8 md:p-12">
                 <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-white backdrop-blur-sm">
                   <span className="relative flex h-1.5 w-1.5" aria-hidden>
@@ -140,8 +138,7 @@ export function AuctionPageContent() {
                   goes public.
                 </h3>
                 <p className="mb-7 max-w-[440px] text-[15px] leading-[1.6] text-white/75 md:text-base">
-                  Sold via a Continuous Clearing Auction (CCA) on Ethereum, with
-                  bids kept private until the auction closes.
+                    Sold via a Uniswap sealed-bid Dutch auction on Ethereum  
                 </p>
                 <div className="flex flex-col items-start gap-3">
                   <BidSignupForm />
@@ -152,7 +149,7 @@ export function AuctionPageContent() {
               </div>
 
               {/* Elevation lottie fills the right column (scaled up to cover) */}
-              <div className="relative min-h-[280px] overflow-hidden md:min-h-0">
+              <div className="relative hidden overflow-hidden lg:block lg:min-h-0">
                 <div className="absolute left-1/2 top-1/2 h-[160%] w-[160%] -translate-x-1/2 -translate-y-1/2">
                   <LottiePlayer
                     src={ELEVATION_LOTTIE_SRC}
@@ -197,109 +194,72 @@ export function AuctionPageContent() {
               href="https://docs.strato.nexus"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-6 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
+              className="group relative flex aspect-square items-center justify-center overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-8 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
             >
-              <p
-                className="mb-4 text-[11px] font-bold uppercase tracking-[0.2em]"
-                style={{ color: ACCENT }}
-              >
-                01 — How It Works
-              </p>
+              <div
+                className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full opacity-60 blur-3xl"
+                style={{
+                  background:
+                    "radial-gradient(circle, rgba(61,85,197,0.25) 0%, transparent 70%)",
+                }}
+                aria-hidden
+              />
               <h4
-                className="mb-3 text-xl font-bold leading-[1.2]"
+                className="relative text-xl font-bold leading-[1.25] md:text-2xl"
                 style={{ color: NAVY }}
               >
-                A Continuous Clearing Auction.
-              </h4>
-              <p className="text-[13px] leading-[1.6] text-[#5A6178]">
-                Bids stay private until the auction closes. Everyone pays the
-                same final clearing price — set by where supply meets demand.
-              </p>
-              <span
-                className="mt-5 inline-flex items-center gap-1 text-[12px] font-semibold"
-                style={{ color: ACCENT }}
-              >
-                Read in docs
+                How does it work?{" "}
                 <ArrowUpRight
-                  size={14}
-                  className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  size={20}
+                  strokeWidth={2.5}
+                  className="inline-block align-baseline transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  style={{ color: ACCENT }}
                 />
-              </span>
+              </h4>
             </a>
             <a
               href="https://docs.strato.nexus"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col rounded-2xl border border-[rgba(61,85,197,0.15)] p-6 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.25)]"
-              style={{ background: NAVY }}
+              className="group relative flex aspect-square items-center justify-center overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-8 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
             >
-              <p
-                className="mb-4 text-[11px] font-bold uppercase tracking-[0.2em]"
-                style={{ color: TEAL }}
+              <h4
+                className="relative text-xl font-bold leading-[1.25] md:text-2xl"
+                style={{ color: NAVY }}
               >
-                02 — Tokenomics
-              </p>
-              <h4 className="mb-3 text-xl font-bold leading-[1.2] text-white">
-                $STRATO supply &amp; distribution.
-              </h4>
-              <p className="text-[13px] leading-[1.6] text-[rgba(255,255,255,0.75)]">
-                Token supply, allocation, vesting schedules, and the role of{" "}
-                <span className="font-semibold" style={{ color: TEAL }}>
-                  $STRATO
-                </span>{" "}
-                across the ecosystem.
-              </p>
-              <span
-                className="mt-5 inline-flex items-center gap-1 text-[12px] font-semibold"
-                style={{ color: TEAL }}
-              >
-                Read in docs
+                Explore $STRATO tokenomics{" "}
                 <ArrowUpRight
-                  size={14}
-                  className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  size={20}
+                  strokeWidth={2.5}
+                  className="inline-block align-baseline transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  style={{ color: ACCENT }}
                 />
-              </span>
+              </h4>
             </a>
             <a
               href="https://docs.strato.nexus"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-6 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
+              className="group relative flex aspect-square items-center justify-center overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-8 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
             >
-              <p
-                className="mb-4 text-[11px] font-bold uppercase tracking-[0.2em]"
-                style={{ color: ACCENT }}
-              >
-                03 — Litepaper
-              </p>
               <h4
-                className="mb-3 text-xl font-bold leading-[1.2]"
+                className="relative text-xl font-bold leading-[1.25] md:text-2xl"
                 style={{ color: NAVY }}
               >
-                The full technical overview.
-              </h4>
-              <p className="text-[13px] leading-[1.6] text-[#5A6178]">
-                A walkthrough of the protocol, the auction mechanism, and how
-                privacy is preserved on-chain.
-              </p>
-              <span
-                className="mt-5 inline-flex items-center gap-1 text-[12px] font-semibold"
-                style={{ color: ACCENT }}
-              >
-                Read in docs
+                Read the Strato protocol litepaper{" "}
                 <ArrowUpRight
-                  size={14}
-                  className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  size={20}
+                  strokeWidth={2.5}
+                  className="inline-block align-baseline transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  style={{ color: ACCENT }}
                 />
-              </span>
+              </h4>
             </a>
           </section>
-
-          {/* Positioning footnotes — temporarily hidden */}
-          {/*
+          
           <SectionLabel>Why this matters</SectionLabel>
           <section className="mb-10 overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white shadow-[0_2px_20px_rgba(29,46,134,0.06)]">
-            {infoLinks.map(({ icon: Icon, title, body }, idx) => (
+            {infoLinks.map(({ lottie, title, body }, idx) => (
               <div
                 key={title}
                 className={`flex items-center gap-5 px-5 py-5 md:px-7 md:py-6 ${
@@ -307,10 +267,15 @@ export function AuctionPageContent() {
                 }`}
               >
                 <div
-                  className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[12px] border border-[rgba(61,85,197,0.15)]"
-                  style={{ background: "rgba(61,85,197,0.1)" }}
+                  className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-[14px] border border-[rgba(61,85,197,0.15)] md:h-20 md:w-20"
+                  style={{ background: "rgba(61,85,197,0.06)" }}
                 >
-                  <Icon size={18} color={ACCENT} />
+                  <LottiePlayer
+                    src={lottie}
+                    loop
+                    autoplay
+                    className="h-full w-full"
+                  />
                 </div>
                 <div className="min-w-0 flex-1">
                   <h4
@@ -326,7 +291,69 @@ export function AuctionPageContent() {
               </div>
             ))}
           </section>
-          */}
+
+          {/* Long CTA bar */}
+          <div
+            aria-disabled="true"
+            className="group relative mb-10 flex cursor-not-allowed flex-col items-start justify-between gap-5 overflow-hidden rounded-2xl px-7 py-9 shadow-[0_12px_50px_rgba(29,46,134,0.35)] md:flex-row md:items-center md:px-10 md:py-12"
+            style={{
+              background: `linear-gradient(135deg, ${NAVY} 0%, #2D3FB0 55%, ${ACCENT} 100%)`,
+            }}
+          >
+            <div
+              className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full opacity-40 blur-3xl"
+              style={{ background: TEAL }}
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute -bottom-32 -left-20 h-72 w-72 rounded-full opacity-25 blur-3xl"
+              style={{ background: "#7B8AFF" }}
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute inset-0 opacity-[0.08]"
+              style={{
+                backgroundImage:
+                  "linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)",
+                backgroundSize: "32px 32px",
+              }}
+              aria-hidden
+            />
+            <div className="relative flex items-center gap-4">
+              <span className="relative flex h-3 w-3 shrink-0" aria-hidden>
+                <span
+                  className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"
+                  style={{ background: TEAL }}
+                />
+                <span
+                  className="relative inline-flex h-3 w-3 rounded-full"
+                  style={{ background: TEAL }}
+                />
+              </span>
+              <div className="flex flex-col gap-1.5">
+                <span
+                  className="text-[11px] font-bold uppercase tracking-[0.22em]"
+                  style={{ color: TEAL }}
+                >
+                  Get Ready
+                </span>
+                <span className="text-2xl font-extrabold leading-[1.1] text-white md:text-[32px]">
+                  Place your bid for{" "}
+                  <span style={{ color: TEAL }}>$STRATO</span>
+                </span>
+                <span className="text-sm font-medium text-white/70 md:text-[15px]">
+                  Continuous Clearing Auction · Settled on Ethereum
+                </span>
+              </div>
+            </div>
+            <span
+              className="relative inline-flex shrink-0 items-center gap-2 rounded-full px-7 py-4 text-base font-extrabold uppercase tracking-[0.12em] opacity-60 md:text-lg"
+              style={{ background: TEAL, color: NAVY }}
+            >
+              Bid now
+              <ArrowRight size={20} strokeWidth={3} />
+            </span>
+          </div>
 
           {/* Updates / newsletter */}
           <section
