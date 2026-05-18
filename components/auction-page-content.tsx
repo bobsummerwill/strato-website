@@ -134,7 +134,7 @@ export function AuctionPageContent() {
                   goes public.
                 </h3>
                 <p className="mb-7 max-w-[440px] text-[15px] leading-[1.6] text-white/75 md:text-base">
-                    Sold via a Uniswap sealed-bid English auction on Ethereum  
+                    Sold via a Uniswap CCA auction on Ethereum  
                 </p>
                 <div className="flex flex-col items-start gap-3">
                   <BidSignupForm />

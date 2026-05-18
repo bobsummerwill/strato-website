@@ -71,8 +71,8 @@ const CAROUSEL_CARDS = [
       "Check Earn for current APYs and Rewards for active point opportunities.",
     table: [
       { source: "LP trading", estimated: "~10%" },
-      { source: "STRATO Reward", estimated: "Variable" },
-      { source: "Sky savings rate", estimated: "Variable" },
+      { source: "STRATO Reward", estimated: "~5%" },
+      { source: "Sky savings rate", estimated: "~3.65%" },
       { source: "Borrow Cost", estimated: "~5%" },
     ],
     primaryCta: { label: "Provide Liquidity", href: `${EXTERNAL_LINKS.app}dashboard/earn` },
