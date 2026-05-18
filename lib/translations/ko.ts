@@ -14,6 +14,7 @@ const ko = {
   "nav.blog": "블로그",
   "nav.communityPartnership": "커뮤니티 파트너십",
   "nav.launchApp": "앱 실행",
+  "nav.preTge": "Pre-TGE",
 
   // Hero
   "hero.title1": "귀금속이 이끄는",

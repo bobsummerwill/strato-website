@@ -14,6 +14,7 @@ const en = {
   "nav.blog": "Blog",
   "nav.communityPartnership": "Community Partnership",
   "nav.launchApp": "Launch App",
+  "nav.preTge": "Pre-TGE",
 
   // Hero
   "hero.title1": "DeFi Powered",

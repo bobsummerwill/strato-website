@@ -188,10 +188,11 @@ export function AuctionPageContent() {
             </div>
           </section>
 
-          {/* Primary explainer cards */}
+          {/* Primary explainer cards — temporarily hidden until links are ready */}
+          {/*
           <section className="mb-10 grid grid-cols-1 gap-4 md:grid-cols-3">
             <a
-              href="https://docs.strato.nexus"
+              href="https://docs.strato.nexus/community-ico/"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative flex aspect-square items-center justify-center overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-8 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
@@ -218,7 +219,7 @@ export function AuctionPageContent() {
               </h4>
             </a>
             <a
-              href="https://docs.strato.nexus"
+              href="https://docs.strato.nexus/tokenomics/"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative flex aspect-square items-center justify-center overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-8 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
@@ -237,7 +238,7 @@ export function AuctionPageContent() {
               </h4>
             </a>
             <a
-              href="https://docs.strato.nexus"
+              href="https://docs.strato.nexus/litepaper/"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative flex aspect-square items-center justify-center overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-8 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)]"
@@ -256,7 +257,8 @@ export function AuctionPageContent() {
               </h4>
             </a>
           </section>
-          
+          */}
+
           <SectionLabel>Why this matters</SectionLabel>
           <section className="mb-10 overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white shadow-[0_2px_20px_rgba(29,46,134,0.06)]">
             {infoLinks.map(({ lottie, title, body }, idx) => (
@@ -350,7 +352,7 @@ export function AuctionPageContent() {
               className="relative inline-flex shrink-0 items-center gap-2 rounded-full px-7 py-4 text-base font-extrabold uppercase tracking-[0.12em] opacity-60 md:text-lg"
               style={{ background: TEAL, color: NAVY }}
             >
-              Bid now
+              Coming Soon
               <ArrowRight size={20} strokeWidth={3} />
             </span>
           </div>

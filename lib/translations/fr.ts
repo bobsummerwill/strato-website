@@ -14,6 +14,7 @@ const fr = {
   "nav.blog": "Blog",
   "nav.communityPartnership": "Partenariat Communautaire",
   "nav.launchApp": "Lancer l'App",
+  "nav.preTge": "Pré-TGE",
 
   // Hero
   "hero.title1": "La DeFi Propulsee",

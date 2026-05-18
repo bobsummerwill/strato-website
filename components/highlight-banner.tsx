@@ -14,8 +14,8 @@ const BANNER_CONFIG = {
   subtitle: "",
 
   /** The URL the entire banner links to (used when newsletterMode is false) */
-  href: "https://app.strato.nexus/",
-  openInNewTab: true,
+  href: "/auction",
+  openInNewTab: false,
 
   /**
    * Optional countdown target date (ISO string).
@@ -96,13 +96,11 @@ export function HighlightBanner() {
 
   const {
     mode,
-    setMode,
     email,
     setEmail,
     submit,
     cancel,
     retry,
-    isNewsletterMode,
     messages,
   } = useNewsletter()
 
@@ -122,13 +120,6 @@ export function HighlightBanner() {
   const linkProps = openInNewTab
     ? { target: "_blank" as const, rel: "noopener noreferrer" }
     : {}
-
-  const handleCtaClick = (e: React.MouseEvent) => {
-    if (isNewsletterMode) {
-      e.preventDefault()
-      setMode("input")
-    }
-  }
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -156,9 +147,8 @@ export function HighlightBanner() {
         {/* CTA Mode — default clickable banner */}
         {mode === "cta" && (
           <a
-            href={isNewsletterMode ? "#" : href}
-            {...(isNewsletterMode ? {} : linkProps)}
-            onClick={handleCtaClick}
+            href={href}
+            {...linkProps}
             className="group flex min-w-0 flex-1 items-center gap-3 md:gap-4"
           >
             <div className="flex min-w-0 flex-1 flex-col gap-0.5 text-center md:text-left md:flex-row md:items-center md:gap-3">
