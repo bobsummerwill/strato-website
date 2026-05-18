@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import {
@@ -13,11 +13,7 @@ import {
   RotateCcw,
   Check,
 } from "lucide-react"
-import { useNewsletter } from "@/hooks/use-newsletter"
 import { LottiePlayer } from "@/components/lottie-player"
-
-const AUCTION_SIGNUP_ENDPOINT =
-  process.env.NEXT_PUBLIC_AUCTION_SIGNUP_ENDPOINT ?? ""
 
 const ELEVATION_LOTTIE_SRC = "/lotties/elevation.lottie"
 
@@ -28,7 +24,7 @@ const TEAL = "#00D4AA"
 const infoLinks = [
   {
     lottie: "/lotties/hardest-assets-3.lottie",
-    title: "Hardfi — hard assets, on-chain",
+    title: "HardFi — hard assets, on-chain",
     body: "Trillions in gold and silver sit in vaults, illiquid and idle. DeFi built the rails. HardFi puts real assets on them. This is what finance looks like when hard assets can finally move.",
   },
   {
@@ -68,7 +64,7 @@ export function AuctionPageContent() {
           <Navbar />
         </div>
 
-        <div className="mx-auto max-w-[860px] py-12 md:py-16">
+        <div className="mx-auto max-w-[1280px] py-12 md:py-16">
           {/* Hero */}
           <section className="mb-10">
             <div className="mb-3 flex flex-wrap items-center gap-3">
@@ -130,7 +126,7 @@ export function AuctionPageContent() {
                       style={{ background: TEAL }}
                     />
                   </span>
-                  Auction coming soon
+                  Auction Starts June 3rd
                 </div>
                 <h3 className="mb-4 text-3xl font-extrabold leading-[1.1] text-white md:text-[40px]">
                   <span style={{ color: TEAL }}>2.5%</span> of $STRATO
@@ -143,7 +139,7 @@ export function AuctionPageContent() {
                 <div className="flex flex-col items-start gap-3">
                   <BidSignupForm />
                   <p className="text-xs font-medium uppercase tracking-[0.18em] text-white/50">
-                    Bids private · Settled on Ethereum
+                    Settled on Ethereum
                   </p>
                 </div>
               </div>
@@ -173,19 +169,7 @@ export function AuctionPageContent() {
 
           {/* Intro video */}
           <section className="mb-10">
-            <div className="overflow-hidden rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white p-2 shadow-[0_2px_20px_rgba(29,46,134,0.06)]">
-              <video
-                controls
-                autoPlay
-                muted
-                playsInline
-                preload="auto"
-                className="block h-auto w-full rounded-xl bg-black"
-              >
-                <source src="/videos/strato-hardfi.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            <HeroVideo />
           </section>
 
           {/* Primary explainer cards — temporarily hidden until links are ready */}
@@ -432,6 +416,75 @@ export function AuctionPageContent() {
   )
 }
 
+function HeroVideo() {
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const [videoReady, setVideoReady] = useState(false)
+  const playAttemptedRef = useRef(false)
+
+  useEffect(() => {
+    const video = videoRef.current
+    if (!video) return
+
+    video.muted = true
+    video.defaultMuted = true
+    video.playsInline = true
+    video.setAttribute("muted", "")
+    video.setAttribute("playsinline", "")
+    video.setAttribute("webkit-playsinline", "")
+
+    const tryPlay = () => {
+      if (playAttemptedRef.current) return
+      playAttemptedRef.current = true
+
+      const promise = video.play()
+      if (promise && typeof promise.catch === "function") {
+        promise.catch(() => {
+          playAttemptedRef.current = false
+        })
+      }
+    }
+
+    if (video.readyState >= 2) {
+      tryPlay()
+    } else {
+      video.addEventListener("loadeddata", tryPlay, { once: true })
+      video.addEventListener("canplay", tryPlay, { once: true })
+    }
+
+    return () => {
+      video.removeEventListener("loadeddata", tryPlay)
+      video.removeEventListener("canplay", tryPlay)
+    }
+  }, [])
+
+  return (
+    <div className="overflow-hidden rounded-2xl bg-[#1a1a2e]">
+      <div className="relative aspect-video w-full">
+        {!videoReady && (
+          <div className="absolute inset-0 bg-black/10 backdrop-blur-[1px]" />
+        )}
+        <video
+          ref={videoRef}
+          className="relative h-full w-full object-cover transition-opacity duration-700 ease-out"
+          style={{ opacity: videoReady ? 1 : 0 }}
+          controls
+          autoPlay
+          muted
+          defaultMuted
+          loop
+          playsInline
+          preload="auto"
+          onLoadedData={() => setVideoReady(true)}
+          onCanPlay={() => setVideoReady(true)}
+        >
+          <source src="/videos/strato-hardfi.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  )
+}
+
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <p
@@ -525,20 +578,13 @@ function BidSignupForm() {
     setStatus("loading")
 
     try {
-      if (!AUCTION_SIGNUP_ENDPOINT) {
-        throw new Error("Signup endpoint not configured")
-      }
-
-      await fetch(AUCTION_SIGNUP_ENDPOINT, {
+      const res = await fetch("/api/auction-signup", {
         method: "POST",
-        mode: "no-cors",
-        headers: { "Content-Type": "text/plain;charset=utf-8" },
-        body: JSON.stringify({
-          email,
-          source: "auction-page",
-          submittedAt: new Date().toISOString(),
-        }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
       })
+
+      if (!res.ok) throw new Error("signup failed")
 
       setStatus("success")
     } catch {
@@ -598,11 +644,30 @@ function BidSignupForm() {
 }
 
 function NewsletterForm() {
-  const { mode, email, setEmail, submit, retry, messages } = useNewsletter()
+  const [email, setEmail] = useState("")
+  const [mode, setMode] = useState<"idle" | "loading" | "success" | "error">(
+    "idle",
+  )
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    submit()
+    if (!email || !email.includes("@") || mode === "loading") return
+
+    setMode("loading")
+
+    try {
+      const res = await fetch("/api/auction-signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      })
+
+      if (!res.ok) throw new Error("signup failed")
+
+      setMode("success")
+    } catch {
+      setMode("error")
+    }
   }
 
   if (mode === "success") {
@@ -614,7 +679,7 @@ function NewsletterForm() {
           color: NAVY,
         }}
       >
-        {messages.success}
+        You&apos;re in! Check your inbox.
       </div>
     )
   }
@@ -623,11 +688,11 @@ function NewsletterForm() {
     return (
       <div className="flex flex-col items-start gap-3 rounded-xl border border-red-200 bg-red-50 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
         <span className="text-sm font-medium text-red-700">
-          {messages.error}
+          Something went wrong. Try again?
         </span>
         <button
           type="button"
-          onClick={retry}
+          onClick={() => setMode("idle")}
           className="inline-flex items-center gap-1.5 rounded-full border border-red-200 bg-white px-4 py-1.5 text-xs font-semibold text-red-700 transition-colors hover:bg-red-100"
         >
           <RotateCcw size={12} />
@@ -649,7 +714,7 @@ function NewsletterForm() {
         required
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder={messages.placeholder}
+        placeholder="Enter your email"
         disabled={isLoading}
         className="flex-1 rounded-full border border-[rgba(61,85,197,0.2)] bg-white px-5 py-2.5 text-sm placeholder:text-[#8B92A8] focus:border-[#3d55c5] focus:outline-none focus:ring-2 focus:ring-[rgba(61,85,197,0.2)] disabled:opacity-60"
         style={{ color: NAVY }}
