@@ -136,13 +136,13 @@ export function HighlightBanner() {
 
   return (
     <div
-      className="absolute bottom-8 left-4 right-4 z-20 flex items-center justify-center md:left-8 md:right-8 lg:left-12 lg:right-12 transition-all duration-500"
+      className="fixed bottom-6 left-4 right-4 z-[9000] flex items-center justify-center md:bottom-8 md:left-8 md:right-8 lg:left-12 lg:right-12 transition-all duration-500"
       style={{
         opacity: mounted ? 1 : 0,
         transform: mounted ? "translateY(0)" : "translateY(12px)",
       }}
     >
-      <div className="flex w-fit items-center gap-2 rounded-full bg-white/90 py-2 pl-5 pr-2 shadow-lg backdrop-blur-md md:gap-3 md:pl-6 md:pr-3">
+      <div className="flex w-full max-w-2xl items-center gap-2 rounded-full bg-[#3ecfb2] py-2.5 pl-6 pr-3 shadow-lg shadow-[#3ecfb2]/30 backdrop-blur-md md:gap-3 md:py-3 md:pl-8 md:pr-4">
 
         {/* CTA Mode — default clickable banner */}
         {mode === "cta" && (
@@ -151,23 +151,29 @@ export function HighlightBanner() {
             {...linkProps}
             className="group flex min-w-0 flex-1 items-center gap-3 md:gap-4"
           >
-            <div className="flex min-w-0 flex-1 flex-col gap-0.5 text-center md:text-left md:flex-row md:items-center md:gap-3">
+            <div className="flex min-w-0 flex-1 items-center justify-center gap-2 text-center">
+              <span className="relative flex h-2 w-2 shrink-0">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-white" />
+              </span>
               <span
-                className="shrink-0 text-sm font-semibold"
+                className="shrink-0 text-sm font-bold tracking-tight md:text-base"
                 style={{
-                  background: "linear-gradient(90deg, #243486, #3ecfb2, #243486)",
+                  background: "linear-gradient(90deg, #243486, #ffffff, #243486)",
                   backgroundSize: "200% auto",
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                   backgroundClip: "text",
-                  animation: "gradient-shift 4s linear infinite",
+                  animation: "gradient-shift 3s linear infinite",
                 }}
               >
                 {t("banner.title")}
               </span>
-              <span className="truncate text-xs text-[#243486]/50 md:text-sm">
-                {subtitle}
-              </span>
+              {subtitle && (
+                <span className="truncate text-xs text-[#243486]/50 md:text-sm">
+                  {subtitle}
+                </span>
+              )}
             </div>
 
             <div className="flex shrink-0 items-center gap-3">
@@ -183,7 +189,7 @@ export function HighlightBanner() {
               )}
               <ArrowRight
                 size={16}
-                className="text-[#243486]/40 transition-transform group-hover:translate-x-0.5"
+                className="text-[#243486] transition-transform group-hover:translate-x-0.5"
               />
             </div>
           </a>

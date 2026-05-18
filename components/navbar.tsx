@@ -47,6 +47,10 @@ const NAV_ITEMS: NavItem[] = [
       { labelKey: "nav.communityPartnership", href: "/communityrewards", external: false },
     ],
   },
+  {
+    labelKey: "nav.preTge",
+    href: "/auction",
+  },
 ]
 
 function isDropdown(item: NavItem): item is NavDropdown {
@@ -275,12 +279,6 @@ export function Navbar() {
           >
             {t("nav.launchApp")}
           </a>
-          <Link
-            href="/auction"
-            className="rounded-full bg-[#3ecfb2] px-4 py-1.5 text-sm font-semibold text-[#243486] transition-colors hover:bg-[#36b89d]"
-          >
-            {t("nav.preTge")}
-          </Link>
         </div>
 
         {/* Mobile hamburger */}
@@ -358,13 +356,6 @@ export function Navbar() {
             })}
 
             <div className="mt-auto flex flex-col gap-3 pt-8">
-              <Link
-                href="/auction"
-                className="block w-full rounded-full bg-[#3ecfb2] px-6 py-4 text-center text-lg font-semibold text-[#243486] transition-colors hover:bg-[#36b89d]"
-                onClick={closeMenu}
-              >
-                {t("nav.preTge")}
-              </Link>
               <a
                 href={launchAppMobileUrl}
                 target="_blank"

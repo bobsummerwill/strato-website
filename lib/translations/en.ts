@@ -24,7 +24,7 @@ const en = {
   "hero.cta": "Explore",
 
   // Banner
-  "banner.title": "TGE upcoming. Join the whitelist and latest news.",
+  "banner.title": "Join the Community ICO",
 
   // Stats
   "stats.tvl": "Total Value Locked",

@@ -24,7 +24,7 @@ const zh = {
   "hero.cta": "开始探索",
 
   // Banner
-  "banner.title": "TGE 即将到来。加入白名单，获取最新消息。",
+  "banner.title": "加入社区 ICO",
 
   // Stats
   "stats.tvl": "总锁仓价值",

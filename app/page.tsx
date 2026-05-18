@@ -10,6 +10,7 @@ import { JoinCommunitySection } from "@/components/join-community-section"
 import { StatsSection } from "@/components/stats-section"
 import { PartnersSection } from "@/components/partners-section"
 import { Footer } from "@/components/footer"
+import { HighlightBanner } from "@/components/highlight-banner"
 import { JsonLd } from "@/components/json-ld"
 import { organizationJsonLd, webSiteJsonLd } from "@/lib/seo"
 
@@ -55,6 +56,7 @@ export default async function Home() {
       <RealYieldSection />
       <JoinCommunitySection />
       <Footer />
+      <HighlightBanner />
     </div>
   )
 }

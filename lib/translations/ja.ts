@@ -24,7 +24,7 @@ const ja = {
   "hero.cta": "探索する",
 
   // Banner
-  "banner.title": "TGE 間近。ホワイトリストに参加して最新ニュースを入手。",
+  "banner.title": "コミュニティICOに参加",
 
   // Stats
   "stats.tvl": "総ロック額",

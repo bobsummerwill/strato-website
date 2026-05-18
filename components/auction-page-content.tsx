@@ -80,10 +80,10 @@ export function AuctionPageContent() {
               </p>
             </div>
             <h1
-              className="mb-5 max-w-[640px] text-4xl font-extrabold leading-[1.1] md:text-[56px] md:leading-[1.05]"
+              className="mb-5 max-w-[640px] text-3xl font-extrabold leading-[1.1] md:text-[40px] md:leading-[1.05]"
               style={{ color: NAVY }}
             >
-              The $STRATO Public Auction
+              The $STRATO Community ICO Round
             </h1>
           </section>
 
@@ -138,7 +138,7 @@ export function AuctionPageContent() {
                   goes public.
                 </h3>
                 <p className="mb-7 max-w-[440px] text-[15px] leading-[1.6] text-white/75 md:text-base">
-                    Sold via a Uniswap sealed-bid Dutch auction on Ethereum  
+                    Sold via a Uniswap sealed-bid English auction on Ethereum  
                 </p>
                 <div className="flex flex-col items-start gap-3">
                   <BidSignupForm />

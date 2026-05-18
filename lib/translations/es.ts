@@ -24,7 +24,7 @@ const es = {
   "hero.cta": "Explorar",
 
   // Banner
-  "banner.title": "TGE proximo. Unete a la lista blanca y recibe las ultimas noticias.",
+  "banner.title": "Unete a la ICO Comunitaria",
 
   // Stats
   "stats.tvl": "Valor Total Bloqueado",

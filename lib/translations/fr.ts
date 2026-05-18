@@ -24,7 +24,7 @@ const fr = {
   "hero.cta": "Explorer",
 
   // Banner
-  "banner.title": "TGE a venir. Rejoignez la liste blanche et les dernieres nouvelles.",
+  "banner.title": "Rejoignez l'ICO communautaire",
 
   // Stats
   "stats.tvl": "Valeur Totale Verrouillee",

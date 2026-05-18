@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import lottie, { type AnimationItem } from "lottie-web";
 import { Navbar } from "./navbar";
-import { HighlightBanner } from "./highlight-banner";
 import { revealStyle } from "@/hooks/use-reveal";
 import { usePlatformUrl } from "@/lib/use-platform-url";
 import { useTranslation } from "@/lib/i18n";
@@ -141,7 +140,6 @@ export function HeroSection() {
         </div>
       </div>
 
-      <HighlightBanner />
     </section>
   );
 }

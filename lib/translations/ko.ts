@@ -24,7 +24,7 @@ const ko = {
   "hero.cta": "탐색하기",
 
   // Banner
-  "banner.title": "TGE가 곧 시작됩니다. 화이트리스트에 참여하고 최신 뉴스를 받아보세요.",
+  "banner.title": "커뮤니티 ICO에 참여하세요",
 
   // Stats
   "stats.tvl": "총 예치금",
