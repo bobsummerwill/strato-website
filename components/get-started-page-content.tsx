@@ -71,7 +71,8 @@ const CAROUSEL_CARDS = [
       "Check Earn for current APYs and Rewards for active point opportunities.",
     table: [
       { source: "LP trading + Rewards", estimated: "~10%+" },
-      { source: "STRATO Saving Vault", estimated: "~5%" },
+      { source: "STRATO Savings Vault", estimated: "~5%" },
+      { source: "CDP Stability Fee", estimated: "~2%" },
     ],
     primaryCta: { label: "Provide Liquidity", href: `${EXTERNAL_LINKS.app}dashboard/earn` },
     secondaryCta: { label: "Full Yield Maxxing Guide", href: `${EXTERNAL_LINKS.docs}scenarios/maximize-yield` },
