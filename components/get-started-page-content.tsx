@@ -70,10 +70,8 @@ const CAROUSEL_CARDS = [
     secondaryText:
       "Check Earn for current APYs and Rewards for active point opportunities.",
     table: [
-      { source: "LP trading", estimated: "~10%" },
-      { source: "STRATO Reward", estimated: "~5%" },
-      { source: "Sky savings rate", estimated: "~3.65%" },
-      { source: "Borrow Cost", estimated: "~5%" },
+      { source: "LP trading + Rewards", estimated: "~10%+" },
+      { source: "STRATO Saving Vault", estimated: "~5%" },
     ],
     primaryCta: { label: "Provide Liquidity", href: `${EXTERNAL_LINKS.app}dashboard/earn` },
     secondaryCta: { label: "Full Yield Maxxing Guide", href: `${EXTERNAL_LINKS.docs}scenarios/maximize-yield` },
@@ -521,7 +519,7 @@ function InnovationSection() {
             Over 10 years of Innovation in Crypto
           </h2>
           <p className="mt-6 text-base leading-relaxed text-[#1a1a2e]/80">
-            STRATO (formerly BlockApps) was the first to issue RWAs on Ethereum in 2017, and has worked with governments, startups, and enterprises like Microsoft to build tokenized real-world infrastructure.
+            STRATO (formerly BlockApps) was the first to issue RWAs on Ethereum in 2016, and has worked with governments, startups, and enterprises like Microsoft to build tokenized real-world infrastructure.
           </p>
           <p className="mt-4 text-base leading-relaxed text-[#1a1a2e]/80">
             In collaboration with Founding members of the Ethereum Enterprise Alliance, the team now brings the hardest assets—gold and silver—to users globally through STRATO.
