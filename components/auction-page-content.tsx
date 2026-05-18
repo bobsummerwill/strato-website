@@ -324,8 +324,8 @@ export function AuctionPageContent() {
                   Get Ready
                 </span>
                 <span className="text-2xl font-extrabold leading-[1.1] text-white md:text-[32px]">
-                  Place your bid for{" "}
-                  <span style={{ color: TEAL }}>$STRATO</span>
+                  <span style={{ color: TEAL }}>$STRATO </span>
+                  Presale Starting June 3rd
                 </span>
                 <span className="text-sm font-medium text-white/70 md:text-[15px]">
                   Continuous Clearing Auction · Settled on Ethereum
