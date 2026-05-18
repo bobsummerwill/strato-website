@@ -1,10 +1,12 @@
 [build]
   command = "pnpm build"
-  publish = "out"
 
 [build.environment]
   NODE_VERSION = "22"
   PNPM_VERSION = "10"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 [context.production.environment]
   NEXT_PUBLIC_ENABLE_LUCKY_ORANGE = "true"
