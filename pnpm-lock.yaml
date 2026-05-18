@@ -195,9 +195,9 @@ importers:
         specifier: ^3.24.1
         version: 3.25.76
     devDependencies:
-      '@netlify/plugin-nextjs':
-        specifier: ^5.15.9
-        version: 5.15.9
+      '@netlify/functions':
+        specifier: ^5.2.2
+        version: 5.2.2
       '@tailwindcss/postcss':
         specifier: ^4.2.0
         version: 4.2.0
@@ -576,9 +576,13 @@ packages:
       '@types/react': '>=16'
       react: '>=16'
 
-  '@netlify/plugin-nextjs@5.15.9':
-    resolution: {integrity: sha512-4kJvV+wrt4/ncehfaOXfhv1FYKCv9EFjq6/tgXXYSlqPDcbsuTXR0DTz9IvyZ/CpPRadRD/zzIqD9wXgCmA2lg==}
+  '@netlify/functions@5.2.2':
+    resolution: {integrity: sha512-gnAV+Cjtr15dbEFaq3PxY7J8Gq3ui+R/iDV+mu6NIU8reeEvLerLHklFimipvGrbymNIkyrgOfniqqoFJr2+0A==}
     engines: {node: '>=18.0.0'}
+
+  '@netlify/types@2.7.0':
+    resolution: {integrity: sha512-mQeuJR1MJFnqZqJQ74B3WyP6oe2wC41VL/VAWzDj1lgdYDdlwLjFiXyHSziYH9L2cdkjGhiZ+7wdH/uUDuYryg==}
+    engines: {node: ^18.14.0 || >=20}
 
   '@next/env@16.1.6':
     resolution: {integrity: sha512-N1ySLuZjnAtN3kFnwhAwPvZah8RJxKasD7x1f8shFqhncnWZn4JMfg37diLNuoHsLAlrDfM3g4mawVdtAG8XLQ==}
@@ -2820,7 +2824,11 @@ snapshots:
       '@types/react': 19.2.14
       react: 19.2.4
 
-  '@netlify/plugin-nextjs@5.15.9': {}
+  '@netlify/functions@5.2.2':
+    dependencies:
+      '@netlify/types': 2.7.0
+
+  '@netlify/types@2.7.0': {}
 
   '@next/env@16.1.6': {}
 
