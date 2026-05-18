@@ -156,17 +156,7 @@ export function HighlightBanner() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-white" />
               </span>
-              <span
-                className="shrink-0 text-sm font-bold tracking-tight md:text-base"
-                style={{
-                  background: "linear-gradient(90deg, #243486, #ffffff, #243486)",
-                  backgroundSize: "200% auto",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                  backgroundClip: "text",
-                  animation: "gradient-shift 3s linear infinite",
-                }}
-              >
+              <span className="shrink-0 text-sm font-bold tracking-tight text-[#243486] md:text-base">
                 {t("banner.title")}
               </span>
               {subtitle && (

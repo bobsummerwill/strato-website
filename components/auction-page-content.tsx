@@ -79,7 +79,7 @@ export function AuctionPageContent() {
               className="mb-5 max-w-[640px] text-3xl font-extrabold leading-[1.1] md:text-[40px] md:leading-[1.05]"
               style={{ color: NAVY }}
             >
-              The $STRATO Community ICO Round
+              The $STRATO Community ICO
             </h1>
           </section>
 
@@ -134,7 +134,7 @@ export function AuctionPageContent() {
                   goes public.
                 </h3>
                 <p className="mb-7 max-w-[440px] text-[15px] leading-[1.6] text-white/75 md:text-base">
-                    Sold via a Uniswap CCA auction on Ethereum  
+                    Sold via a Uniswap auction on Ethereum  
                 </p>
                 <div className="flex flex-col items-start gap-3">
                   <BidSignupForm />
