@@ -14,6 +14,7 @@ const en = {
   "nav.blog": "Blog",
   "nav.communityPartnership": "Community Partnership",
   "nav.launchApp": "Launch App",
+  "nav.preTge": "Pre-TGE",
 
   // Hero
   "hero.title1": "DeFi Powered",
@@ -40,7 +41,7 @@ const en = {
     "When times get hard, people turn to gold and silver. Traditional finance makes it nearly impossible to earn on gold and silver, borrow against them, or move them quickly. STRATO puts vaulted precious metals onchain and builds a full-stack DeFi platform around them, so you can earn, borrow, and provide liquidity using metals, BTC, ETH, and stablecoins.",
   "welcome.card1Title": "Ultra-low fees",
   "welcome.card1Description":
-    "Gas on STRATO costs only ~$0.01 per transaction, and get 10 free transactions through vouchers every time you bridge assets from Ethereum.",
+    "Gas on STRATO costs only ~$0.01 per transaction, and get 25 free transactions through vouchers every time you bridge assets from Ethereum.",
   "welcome.card1Cta": "Start Earning",
   "welcome.card2Title": "Gold & silver, onchain",
   "welcome.card2Description":
