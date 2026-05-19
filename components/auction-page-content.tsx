@@ -169,7 +169,7 @@ export function AuctionPageContent() {
 
           {/* Announcement link */}
           <a
-            href="#"
+            href="https://strato.nexus/blog/announcing-the-strato-community-ico"
             className="group mb-10 flex items-center justify-between gap-4 rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white px-6 py-5 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)] md:px-7 md:py-6"
           >
             <div className="flex min-w-0 flex-col gap-1">
