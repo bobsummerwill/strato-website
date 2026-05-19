@@ -167,6 +167,33 @@ export function AuctionPageContent() {
             </div>
           </section>
 
+          {/* Announcement link */}
+          <a
+            href="#"
+            className="group mb-10 flex items-center justify-between gap-4 rounded-2xl border border-[rgba(61,85,197,0.15)] bg-white px-6 py-5 shadow-[0_2px_20px_rgba(29,46,134,0.06)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(29,46,134,0.12)] md:px-7 md:py-6"
+          >
+            <div className="flex min-w-0 flex-col gap-1">
+              <span
+                className="text-[11px] font-bold uppercase tracking-[0.2em]"
+                style={{ color: ACCENT }}
+              >
+                Read the announcement
+              </span>
+              <span
+                className="text-base font-bold leading-tight md:text-lg"
+                style={{ color: NAVY }}
+              >
+                A letter from Kieren James-Lubin, Co-Founder &amp; CEO: Announcing the $STRATO Community ICO
+              </span>
+            </div>
+            <ArrowUpRight
+              size={22}
+              strokeWidth={2.5}
+              className="shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+              style={{ color: ACCENT }}
+            />
+          </a>
+
           {/* Intro video */}
           <section className="mb-10">
             <HeroVideo />
@@ -613,7 +640,7 @@ function BidSignupForm() {
         required
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="Enter your email to bid"
+        placeholder="Join the Whitelist"
         disabled={status === "loading"}
         aria-label="Email address"
         className="flex-1 rounded-full border border-white/20 bg-white/10 px-5 py-3 text-sm font-medium text-white placeholder:text-white/50 backdrop-blur-sm focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-white/20 disabled:opacity-60"
