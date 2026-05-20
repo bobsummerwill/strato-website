@@ -11,11 +11,10 @@ export const NEWSLETTER_CONFIG = {
   newsletterMode: true,
 
   /**
-   * The endpoint URL to POST email subscriptions to.
-   * Expected payload: { email: string }
-   * This is a placeholder — the backend team will provide the real URL.
+   * Netlify function (see netlify.toml) that forwards signups to Beehiiv.
+   * Expected payload: { email: string, signup_source?: string }
    */
-  newsletterEndpoint: "https://api.example.com/newsletter/subscribe",
+  newsletterEndpoint: "/api/auction-signup",
 
   /**
    * Messages shown to users during the subscription flow.

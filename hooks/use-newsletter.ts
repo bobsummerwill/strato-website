@@ -28,10 +28,15 @@ export function useNewsletter() {
       const response = await fetch(NEWSLETTER_CONFIG.newsletterEndpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, signup_source: "homepage_newsletter" }),
       })
 
       if (!response.ok) {
+        throw new Error("Subscription failed")
+      }
+
+      const data = (await response.json().catch(() => null)) as { ok?: boolean } | null
+      if (data && data.ok === false) {
         throw new Error("Subscription failed")
       }
 
