@@ -14,7 +14,7 @@ const es = {
   "nav.blog": "Blog",
   "nav.communityPartnership": "Alianza Comunitaria",
   "nav.launchApp": "Abrir App",
-  "nav.preTge": "Pre-TGE",
+  "nav.preTge": "ICO Comunitaria",
 
   // Hero
   "hero.title1": "DeFi Impulsado",

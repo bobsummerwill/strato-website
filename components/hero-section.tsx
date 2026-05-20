@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from "react";
 import lottie, { type AnimationItem } from "lottie-web";
 import { Navbar } from "./navbar";
 import { revealStyle } from "@/hooks/use-reveal";
-import { usePlatformUrl } from "@/lib/use-platform-url";
 import { useTranslation } from "@/lib/i18n";
 
 function isIPhone() {
@@ -18,7 +17,6 @@ export function HeroSection() {
   const lottieRef = useRef<HTMLDivElement>(null);
   const animRef = useRef<AnimationItem | null>(null);
   const { t } = useTranslation();
-  const platformUrl = usePlatformUrl("hero-cta");
 
   useEffect(() => {
     if (!lottieRef.current) return;
@@ -109,9 +107,7 @@ export function HeroSection() {
             </p>
 
             <a
-              href={platformUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/auction"
               className="mt-6 inline-flex rounded-full bg-[#243486] px-8 py-4 text-base font-semibold text-white transition-colors hover:bg-[#1a276a]"
               style={revealStyle(visible, 300)}
             >

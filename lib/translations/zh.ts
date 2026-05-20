@@ -14,7 +14,7 @@ const zh = {
   "nav.blog": "博客",
   "nav.communityPartnership": "社区合作",
   "nav.launchApp": "启动应用",
-  "nav.preTge": "Pre-TGE",
+  "nav.preTge": "社区 ICO",
 
   // Hero
   "hero.title1": "以贵金属在去中心化",

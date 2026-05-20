@@ -14,7 +14,7 @@ const ja = {
   "nav.blog": "ブログ",
   "nav.communityPartnership": "コミュニティパートナーシップ",
   "nav.launchApp": "アプリを起動",
-  "nav.preTge": "プレTGE",
+  "nav.preTge": "コミュニティICO",
 
   // Hero
   "hero.title1": "貴金属で動く",

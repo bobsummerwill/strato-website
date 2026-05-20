@@ -24,6 +24,11 @@ export const handler: Handler = async (event) => {
   const signupSource =
     rawSource && /^[a-z0-9_-]{1,64}$/i.test(rawSource) ? rawSource : "ico_waitlist"
 
+  const utm =
+    signupSource === "ico_waitlist"
+      ? { source: "ico_landing", medium: "website", campaign: "strato_ico_waitlist" }
+      : { source: signupSource, medium: "website", campaign: signupSource }
+
   const apiKey = process.env.BEEHIIV_API_KEY
   const publicationId = process.env.BEEHIIV_PUBLICATION_ID
   if (!apiKey || !publicationId) {
@@ -45,9 +50,9 @@ export const handler: Handler = async (event) => {
           email,
           reactivate_existing: false,
           send_welcome_email: false,
-          utm_source: "ico_landing",
-          utm_medium: "website",
-          utm_campaign: "strato_ico_waitlist",
+          utm_source: utm.source,
+          utm_medium: utm.medium,
+          utm_campaign: utm.campaign,
           custom_fields: [{ name: "signup_source", value: signupSource }],
         }),
       },
