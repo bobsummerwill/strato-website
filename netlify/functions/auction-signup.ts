@@ -7,7 +7,7 @@ export const handler: Handler = async (event) => {
     return { statusCode: 405, body: JSON.stringify({ ok: false }) }
   }
 
-  let parsed: { email?: unknown }
+  let parsed: { email?: unknown; signup_source?: unknown }
   try {
     parsed = JSON.parse(event.body || "{}")
   } catch {
@@ -19,6 +19,11 @@ export const handler: Handler = async (event) => {
     return { statusCode: 400, body: JSON.stringify({ ok: false }) }
   }
 
+  const rawSource =
+    typeof parsed.signup_source === "string" ? parsed.signup_source.trim() : ""
+  const signupSource =
+    rawSource && /^[a-z0-9_-]{1,64}$/i.test(rawSource) ? rawSource : "ico_waitlist"
+
   const apiKey = process.env.BEEHIIV_API_KEY
   const publicationId = process.env.BEEHIIV_PUBLICATION_ID
   if (!apiKey || !publicationId) {
@@ -26,25 +31,31 @@ export const handler: Handler = async (event) => {
     return { statusCode: 500, body: JSON.stringify({ ok: false }) }
   }
 
-  const res = await fetch(
-    `https://api.beehiiv.com/v2/publications/${publicationId}/subscriptions`,
-    {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
+  let res: Response
+  try {
+    res = await fetch(
+      `https://api.beehiiv.com/v2/publications/${publicationId}/subscriptions`,
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          reactivate_existing: false,
+          send_welcome_email: false,
+          utm_source: "ico_landing",
+          utm_medium: "website",
+          utm_campaign: "strato_ico_waitlist",
+          custom_fields: [{ name: "signup_source", value: signupSource }],
+        }),
       },
-      body: JSON.stringify({
-        email,
-        reactivate_existing: false,
-        send_welcome_email: false,
-        utm_source: "ico_landing",
-        utm_medium: "website",
-        utm_campaign: "strato_ico_waitlist",
-        custom_fields: [{ name: "signup_source", value: "ico_waitlist" }],
-      }),
-    },
-  )
+    )
+  } catch (err) {
+    console.error("auction-signup: beehiiv request failed", err)
+    return { statusCode: 502, body: JSON.stringify({ ok: false }) }
+  }
 
   if (!res.ok) {
     const detail = await res.text().catch(() => "")
