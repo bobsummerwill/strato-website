@@ -7,12 +7,8 @@ img: /images/covers-for-spaces/strato-ico-community-ama.png
 featured: false
 author: "STRATO Team"
 authorTitle: ""
-videoUrl: ""
+videoUrl: "https://www.youtube.com/embed/SgpGrnXtxSg"
 ---
-
-## Video
-
-Video link coming soon.
 
 ## Audio
 
@@ -39,17 +35,17 @@ Video link coming soon.
 
 ### Introductions and team background
 
-**[00:32] Art Malkov:** Hey everyone. Super excited to host this session. So I'm Art Malkov, former CMO of Pundi X, IoTeX, Zilliqa. So seen Web3 across different angles and really excited about STRATO. Phenomenal team.
+**[00:32] Art Malkov:** Hey everyone. Super excited to host this session. So I'm Art Malkov, former CMO of [Pundi X](https://pundix.com/), [IoTeX](https://iotex.io/), [Zilliqa](https://www.zilliqa.com/). So seen Web3 across different angles and really excited about STRATO. Phenomenal team.
 
 And today we'll be talking about their upcoming community ICO and you'll learn what it is, what it means for you, how to participate, and a whole bunch of other elements. Therefore, without further ado, I would like to bring out the whole team and we're gonna go through quick introductions. Let's get everybody on stage.
 
 All right, so I will go one by one. Let's start with Kieren, the CEO of the company, the fearless leader. Maybe tell a few words about yourself as a quick intro.
 
-**[01:24] Kieren James-Lubin:** Hi everybody. Kieren, been in the space long time. We all work together or many of us work together even in the prehistory on the Ethereum Haskell mainnet client. And I've done a whole lot since. So happy to be with you all.
+**[01:24] Kieren James-Lubin:** Hi everybody. Kieren, been in the space long time. We all work together or many of us work together even in the prehistory on the [Ethereum](https://ethereum.org/) Haskell mainnet client. And I've done a whole lot since. So happy to be with you all.
 
 **[01:41] Art Malkov:** Amazing. And next, Victor, maybe give us a quick introduction.
 
-**[01:46] Victor Wong:** Yeah, another co-founder along with Kieren and Jim. Long time in the space, part of Ethereum before the launch and launched many of the first RWA projects on Ethereum.
+**[01:46] Victor Wong:** Yeah, another co-founder along with Kieren and Jim. Long time in the space, part of [Ethereum](https://ethereum.org/) before the launch and launched many of the first RWA projects on [Ethereum](https://ethereum.org/).
 
 **[02:01] Art Malkov:** Oh yeah, it's the OGs over here. Next we have Jim and Natasha. Let's tell about your roles.
 
@@ -59,7 +55,7 @@ All right, so I will go one by one. Let's start with Kieren, the CEO of the comp
 
 **[02:23] Art Malkov:** Amazing. And Bob, maybe give us a quick intro.
 
-**[02:28] Bob Summerwill:** Hey everybody. So yeah, I'm Bob Summerwill. I'm Head of Ecosystem. Fairly new to BlockApps and STRATO, but long time Ethereum and fellow traveler of these guys.
+**[02:28] Bob Summerwill:** Hey everybody. So yeah, I'm Bob Summerwill. I'm Head of Ecosystem. Fairly new to BlockApps and STRATO, but long time [Ethereum](https://ethereum.org/) and fellow traveler of these guys.
 
 **[02:43] Art Malkov:** Amazing. And Jeff, please maybe share some with us.
 
@@ -91,7 +87,7 @@ So it's an inconvenient asset, but it's stood the test of time as far as a store
 
 So it's a great perennial store of value. Quite inconvenient, not providing the financial access it could. And again, it's kind of strange. We used to use it and we sort of stopped.
 
-And actually it's interesting to note - and we're super crypto believers here - it is even the case that more Americans hold Bitcoin than physical gold. So that's a great thing. Nothing wrong with that. But people should have - gold is great. People should have some exposure. My opinion, not financial advice. Yeah, Jeff.
+And actually it's interesting to note - and we're super crypto believers here - it is even the case that more Americans hold [Bitcoin](https://bitcoin.org/) than physical gold. So that's a great thing. Nothing wrong with that. But people should have - gold is great. People should have some exposure. My opinion, not financial advice. Yeah, Jeff.
 
 **[07:18] Art Malkov:** Jeff, please.
 
@@ -125,7 +121,7 @@ And the last thing is DeFi integration. You can put it in our vault and then you
 
 **[10:21] Jim Hormuzdiar:** Gold is great. And first of all, let's just say that digital and the real world are very important ways of doing things. But we're sort of marrying the two together right now and we're getting advantages from both.
 
-Think of all the times people talk about Bitcoin as digital gold, but so many people don't trust it. It's like some bytes on a computer somewhere. And with us you have the guarantee that at any time in the game you can call in that gold and have the bar actually sent to you.
+Think of all the times people talk about [Bitcoin](https://bitcoin.org/) as digital gold, but so many people don't trust it. It's like some bytes on a computer somewhere. And with us you have the guarantee that at any time in the game you can call in that gold and have the bar actually sent to you.
 
 But bars of gold are very inconvenient. Like if you have a bar of gold and you need to send some fractional part of that to some relative across the world, not so easy to do. You're going to chop it off, put it in a box and send it around the world.
 
@@ -139,23 +135,23 @@ But with our product, you can do that immediately with a couple of button presse
 
 **[11:38] Art Malkov:** Yeah, absolutely. And gold is heavy and hard to get by. So ability to unlock the value, ability to make it quote unquote movable is incredible value that STRATO brings. So let's get - we got a whole bunch of questions and next one is really like, why STRATO? Maybe the - so let's talk about the journey there and we'll start with how did you get here? So Kieren, maybe you tell us a little bit about that.
 
-**[12:09] Kieren James-Lubin:** Yeah, just going back. So we all work together again on the Haskell Mainnet Ethereum client primarily. Jim wrote most of it, but I wrote a bit of the code and super early on we kind of thought we were going to be like the bridge to Ethereum, having our own client and having like API access to it.
+**[12:09] Kieren James-Lubin:** Yeah, just going back. So we all work together again on the Haskell Mainnet [Ethereum](https://ethereum.org/) client primarily. Jim wrote most of it, but I wrote a bit of the code and super early on we kind of thought we were going to be like the bridge to [Ethereum](https://ethereum.org/), having our own client and having like API access to it.
 
-Turned out sort of the enterprise market grabbed us where when people were kind of trepidatious about the public network but they still wanted to use the technology, we were really well set up for this. They liked the way our API works, etc. And we went on to partner with Microsoft to kind of create what was then termed blockchain as a service category which also people say enterprise blockchain a lot.
+Turned out sort of the enterprise market grabbed us where when people were kind of trepidatious about the public network but they still wanted to use the technology, we were really well set up for this. They liked the way our API works, etc. And we went on to partner with [Microsoft](https://www.microsoft.com/) to kind of create what was then termed blockchain as a service category which also people say enterprise blockchain a lot.
 
-They were related where we had lots of corporations running kind of permissioned networks for an internal corporate use case or a couple banks trading with each other or a complex agricultural supply chain or a mining, physical mining supply chain. So we kind of reflected all that work in kind of helping to found the Enterprise Ethereum Alliance, sort of a clearinghouse if you will, for corporate applications of Ethereum.
+They were related where we had lots of corporations running kind of permissioned networks for an internal corporate use case or a couple banks trading with each other or a complex agricultural supply chain or a mining, physical mining supply chain. So we kind of reflected all that work in kind of helping to found the [Enterprise Ethereum Alliance](https://entethalliance.org/), sort of a clearinghouse if you will, for corporate applications of [Ethereum](https://ethereum.org/).
 
-There are some flavors of the technology, a spec and kind of like ongoing working groups in terms of how these big companies could adopt. But really the thread, we've called them, plenty of people call them real world assets. So we were kind of, we believe the first to tokenize the first real world assets on Ethereum technology way back in 2016. And that's been kind of a thread the whole length of the company always just trying to connect the tech itself with reality and still doing so today.
+There are some flavors of the technology, a spec and kind of like ongoing working groups in terms of how these big companies could adopt. But really the thread, we've called them, plenty of people call them real world assets. So we were kind of, we believe the first to tokenize the first real world assets on [Ethereum](https://ethereum.org/) technology way back in 2016. And that's been kind of a thread the whole length of the company always just trying to connect the tech itself with reality and still doing so today.
 
 **[14:12] Jim Hormuzdiar:** Right.
 
 **[14:12] Kieren James-Lubin:** And what we've seen is sort of like, of late like DeFi really started to work. Right. And so kind of the magic of the fully digital representations of value, how they can move, how you can lever them, etc. was finally able to kind of be connected with all of that enterprise RWA work we were doing in the past. So it's been really timely and it's also super timely for gold. It has been quite the run up. Yeah.
 
-**[14:50] Art Malkov:** I think the - Bob, you're also in the early days of Ethereum, so I want to get your perspectives and experiences. I know of how - let's see, what was it like in the early days? You're on now. The history of Ethereum. You did museums all over. So tell us a little bit about that.
+**[14:50] Art Malkov:** I think the - Bob, you're also in the early days of [Ethereum](https://ethereum.org/), so I want to get your perspectives and experiences. I know of how - let's see, what was it like in the early days? You're on now. The history of [Ethereum](https://ethereum.org/). You did museums all over. So tell us a little bit about that.
 
-**[15:08] Bob Summerwill:** Yeah, I mean, for sure. So just prior to that EEA period, I was actually working at the Ethereum Foundation and it's funny you've got some echoes of that happening now about what different sort of legal entities can best support an ecosystem because there was a question, well, should the Ethereum Foundation be promoting and supporting these enterprise use cases or is that in scope, out of scope?
+**[15:08] Bob Summerwill:** Yeah, I mean, for sure. So just prior to that EEA period, I was actually working at the [Ethereum Foundation](https://ethereum.foundation/) and it's funny you've got some echoes of that happening now about what different sort of legal entities can best support an ecosystem because there was a question, well, should the [Ethereum Foundation](https://ethereum.foundation/) be promoting and supporting these enterprise use cases or is that in scope, out of scope?
 
-And you've got a lot of that stuff happening with the Ethereum Foundation again.
+And you've got a lot of that stuff happening with the [Ethereum Foundation](https://ethereum.foundation/) again.
 
 But I think really with EEA you just had a period, you just had a point in time where there were a good number of major corporations as well as startups who really wanted to put these tools to work and go and build real things. So the time was right there for getting those efforts coordinated and aligned.
 
@@ -167,27 +163,27 @@ And even back in 2016 or 2017, lots of the things which are now coming to fruiti
 
 **[16:38] Art Malkov:** Absolutely. And I think we're going to jump into the meat and potatoes of our discussion, which is the community ICO. So this has been long in the working. That's a huge undertaking. And maybe Victor, you can start us off with a little bit about how production will work. I know it's starting on June 3rd, so I think it's good for everybody to understand a little bit on how it will look like, what they should keep in mind. So maybe give us a quick run through.
 
-**[17:08] Victor Wong:** Yeah. So to start, we are doing this on the Ethereum mainnet and on Uniswap and we're using the continuous clearing auction or CCA mechanism. So how it works is basically it's better to not think of it as a single auction, but as a series of auctions that runs through the entire period.
+**[17:08] Victor Wong:** Yeah. So to start, we are doing this on the [Ethereum](https://ethereum.org/) mainnet and on [Uniswap](https://uniswap.org/) and we're using the continuous clearing auction or CCA mechanism. So how it works is basically it's better to not think of it as a single auction, but as a series of auctions that runs through the entire period.
 
 And why this is important is that it keeps the auction fair. So all the participants who get in early can get an allocation of tokens. Even if someone comes later and does a huge bid, they don't take everything. So it's not a winner take all type auction. It allows a lot more participants.
 
 That's why we're calling it a community ICO. And it's really important for us to have these tokens distributed to the community that we're building because we think those people should be part of what we're building going forward as well.
 
-So what you need fundamentally to participate in the auction is you need an Ethereum wallet and you need ETH and then you go to our auction page on [https://strato.nexus/auction](https://strato.nexus/auction), or you can go directly to the Uniswap auction where it goes live on the third and then you bid your price and how much ETH you're willing to spend and then you get tokens up until that point in time.
+So what you need fundamentally to participate in the auction is you need an [Ethereum](https://ethereum.org/) wallet and you need ETH and then you go to our auction page on [https://strato.nexus/auction](https://strato.nexus/auction), or you can go directly to the [Uniswap](https://uniswap.org/) auction where it goes live on the third and then you bid your price and how much ETH you're willing to spend and then you get tokens up until that point in time.
 
 **[18:37] Art Malkov:** And Kieren, maybe tell us a bit about how it's a community round and not just a VC race.
 
-**[18:42] Kieren James-Lubin:** Yeah, so I'd say I personally lived through the Ethereum pre-sale and helped a little bit with some tech support. And there was a funny incident, I'm not sure if I've ever said on camera, in which someone had made a fake Ethereum Twitter handle with the E and the U transposed. But they built up 30,000 followers, which is about the same as what the real Ethereum had.
+**[18:42] Kieren James-Lubin:** Yeah, so I'd say I personally lived through the [Ethereum](https://ethereum.org/) pre-sale and helped a little bit with some tech support. And there was a funny incident, I'm not sure if I've ever said on camera, in which someone had made a fake [Ethereum](https://ethereum.org/) Twitter handle with the E and the U transposed. But they built up 30,000 followers, which is about the same as what the real [Ethereum](https://ethereum.org/) had.
 
-And I had a friend working at Twitter at the time and because they started tweeting out like, hey, DM us on Ether. And so we're able to get that account taken down and so on. And it was just, there was just this feeling of excitement.
+And I had a friend working at [Twitter](https://x.com/) at the time and because they started tweeting out like, hey, DM us on Ether. And so we're able to get that account taken down and so on. And it was just, there was just this feeling of excitement.
 
-That one in particular was the biggest crowd sale of all time. Then it's been dwarfed by many crowd sales, a lot of them happening on Ethereum and ran over like 40 days and most of the activity kind of near the beginning and then near the end. But it was, I think, actually essential to the success of the project.
+That one in particular was the biggest crowd sale of all time. Then it's been dwarfed by many crowd sales, a lot of them happening on [Ethereum](https://ethereum.org/) and ran over like 40 days and most of the activity kind of near the beginning and then near the end. But it was, I think, actually essential to the success of the project.
 
 Something like 8,000 wallets, call it that. And I'm sure that those people were the ones that kind of built it into what it became very significantly. It's not just about using the proceeds to build something or for liquidity or what have you. It's the people who believe really make it a success.
 
-And so actually the Uniswap mechanism is really nice. Right. It kind of ensures that so long as you're kind of watching, you can get something. Where there have been so many of these on chain sale events where someone goes in the literal last block, bids the price up and all of the allocation is gone or any other - plenty of bad has happened just in execution mechanics and in worse from there.
+And so actually the [Uniswap](https://uniswap.org/) mechanism is really nice. Right. It kind of ensures that so long as you're kind of watching, you can get something. Where there have been so many of these on chain sale events where someone goes in the literal last block, bids the price up and all of the allocation is gone or any other - plenty of bad has happened just in execution mechanics and in worse from there.
 
-So they're just a great brand, been around forever, very few negative incidents associated with Uniswap. And the mechanism they designed is really nice and clean for allowing everybody to get involved at this early stage.
+So they're just a great brand, been around forever, very few negative incidents associated with [Uniswap](https://uniswap.org/). And the mechanism they designed is really nice and clean for allowing everybody to get involved at this early stage.
 
 <a id="early-participation-whitelist-and-auction-demo"></a>
 
@@ -207,9 +203,9 @@ And so the idea of, yes, you want to get more tokens, you want to get them cheap
 
 **[23:00] Art Malkov:** Yeah, as simple as that. You heard it here first. Just go to the site [https://strato.nexus](https://strato.nexus). All right, Victor, so let's hear from you how to take all the right steps. So maybe you can give us a quick demo of what would it look like. As if somebody wants to get involved, right?
 
-**[23:16] Victor Wong:** Sure, yeah, maybe. Please, let's share my screen and then we can start. Let's see. So here's a sample auction. This test auction we are doing on the Ethereum Sepolia Testnet and it simulates the auction mechanics that you see. And here it's going to look similar to how it looks like in the real auction. Though this is not the real auction.
+**[23:16] Victor Wong:** Sure, yeah, maybe. Please, let's share my screen and then we can start. Let's see. So here's a sample auction. This test auction we are doing on the [Ethereum](https://ethereum.org/) [Sepolia Testnet](https://sepolia.dev/) and it simulates the auction mechanics that you see. And here it's going to look similar to how it looks like in the real auction. Though this is not the real auction.
 
-You can see my Metamask account. I've connected to this. It's already connected. I have some Sepolia ETH that I can use to bid. Like I said, this auction actually is more like a series of auctions. You can see this is how tokens are distributed. This period where there are no tokens distributed is a pre-bid period. And then tokens kind of gradually are distributed based on the average price.
+You can see my [MetaMask](https://metamask.io/) account. I've connected to this. It's already connected. I have some Sepolia ETH that I can use to bid. Like I said, this auction actually is more like a series of auctions. You can see this is how tokens are distributed. This period where there are no tokens distributed is a pre-bid period. And then tokens kind of gradually are distributed based on the average price.
 
 So if you bid, you can get access to these tokens and it's not going to be, it's going to be distributed to everyone that is eligible in that category to get some of the tokens. So let me explain how you do that.
 
@@ -217,7 +213,7 @@ What you do is you only have to put in two numbers. One is you set a budget. So 
 
 So it starts at where the price is right now. And if you want to get some tokens, you can slide it to the right just a little bit. And you can see my max token price now is 40 cents per token. Now to be absolutely clear, these are maximums. This doesn't mean this amount automatically gets converted into tokens. I'll explain how that works in two seconds.
 
-Once I set in my maximum prices, I click review bid, I click place bid and then I just confirm in Metamask. Now my bid is done. You can see it gets added here. Now once that happens, what happens is that based on those two parameters, it gives you tokens as the price climbs. If the price is under those numbers that you've set, it will give you some tokens.
+Once I set in my maximum prices, I click review bid, I click place bid and then I just confirm in [MetaMask](https://metamask.io/). Now my bid is done. You can see it gets added here. Now once that happens, what happens is that based on those two parameters, it gives you tokens as the price climbs. If the price is under those numbers that you've set, it will give you some tokens.
 
 You can see here are some I put in before where I put in a 1 ETH maximum and I bid up to 59 FDV. By the way, this FDV is not correct for the entire project. It's really the auction FDV because only 2.5% of the tokens will be available and that's what it's representing here. So up to now, like I put this one in 4 hours ago, it's only spent 0.17 of my ETH so far, even under my max budget. And my average price is 22% below the auction price because I got in early.
 
@@ -231,7 +227,7 @@ You can see here are some I put in before where I put in a 1 ETH maximum and I b
 
 So you will, as long as the price is lower than the settings you put it as, you'll always get some tokens. And this is even true if someone puts a huge bid.
 
-So if someone say Vitalik comes along and says I want to put in a million ETH and cranks it all the way to the top, they won't get all the tokens. Everyone that already has bid will get some of the tokens until it reaches this point. So that's what we really like.
+So if someone say [Vitalik](https://vitalik.ca/) comes along and says I want to put in a million ETH and cranks it all the way to the top, they won't get all the tokens. Everyone that already has bid will get some of the tokens until it reaches this point. So that's what we really like.
 
 **[27:36] Art Malkov:** I have another question. So what is the minimum amount of ETH that the person needs to participate?
 
@@ -257,17 +253,17 @@ So you might want to put in another bid. That's why I have many, many bids here.
 
 And you can see this from some of the ones I got, here, the one I put in four hours ago, roughly when we started this test auction, I have it now, 17% filled. The one I put in just now, it hasn't even filled. It only has filled a very small portion yet. So over time you get more filled and you get more tokens.
 
-**[29:39] Art Malkov:** All right, guys, everybody, you heard it here. And now get your Ethereum. And I believe it's only Ethereum. Right. So they need Ethereum to participate.
+**[29:39] Art Malkov:** All right, guys, everybody, you heard it here. And now get your [Ethereum](https://ethereum.org/). And I believe it's only [Ethereum](https://ethereum.org/). Right. So they need [Ethereum](https://ethereum.org/) to participate.
 
-**[29:46] Victor Wong:** Correct, you need ETH. And we're running it on the Ethereum mainnet. And like I said, it will be 2.5% of supply and it will be wrapped STRATO. So meaning that like these FDV numbers that you see are only for that 2.5% of the supply, not the entire project.
+**[29:46] Victor Wong:** Correct, you need ETH. And we're running it on the [Ethereum](https://ethereum.org/) mainnet. And like I said, it will be 2.5% of supply and it will be wrapped STRATO. So meaning that like these FDV numbers that you see are only for that 2.5% of the supply, not the entire project.
 
 **[30:05] Art Malkov:** All right, so and what wallets can people use?
 
-**[30:10] Victor Wong:** Any EOA, Ethereum wallet, so Metamask, Base wallet, any of the main wallets that you want that you already use.
+**[30:10] Victor Wong:** Any EOA, [Ethereum](https://ethereum.org/) wallet, so [MetaMask](https://metamask.io/), [Base](https://www.base.org/) wallet, any of the main wallets that you want that you already use.
 
-**[30:20] Kieren James-Lubin:** I think we all use Metamask the most. But everything kind of works with Uniswap, so if you're like a Rabby person, it should be fine.
+**[30:20] Kieren James-Lubin:** I think we all use [MetaMask](https://metamask.io/) the most. But everything kind of works with [Uniswap](https://uniswap.org/), so if you're like a [Rabby](https://rabby.io/) person, it should be fine.
 
-**[30:29] Art Malkov:** Yeah. So pretty universal, right? So Uniswap, I think, accepts almost everything.
+**[30:29] Art Malkov:** Yeah. So pretty universal, right? So [Uniswap](https://uniswap.org/), I think, accepts almost everything.
 
 **[30:34] Victor Wong:** Yep.
 
@@ -283,7 +279,7 @@ This is not the TGE. This is the - you're part of the community, you want to hel
 
 **[31:24] Victor Wong:** So we're
 
-**[31:27] Kieren James-Lubin:** making sure that we've got good connectivity to the rest of the world. Spiritually, we're big ETH people kind of born of Ethereum, wanted to get everything out first there. But you'll receive the tokens, but you may not quite be able to do anything with them immediately.
+**[31:27] Kieren James-Lubin:** making sure that we've got good connectivity to the rest of the world. Spiritually, we're big ETH people kind of born of [Ethereum](https://ethereum.org/), wanted to get everything out first there. But you'll receive the tokens, but you may not quite be able to do anything with them immediately.
 
 That said, even before things like exchange listings which we're negotiating, etc, there may be something you can do with those tokens that isn't trading them. So that will be kind of working on sort of right away after this distribution event. But really think of it as like you're a fan of the project, you want to help us along that journey. It's the beginning. It's not an exit event or anything like that.
 
@@ -303,7 +299,7 @@ We and the analysts think you'll see, I call it between 5 and 10% of dollars. Th
 
 And this is part of our overall use of these tokens to help us decentralize the network. And then ultimately to Kieren's point is that we're moving toward centralized exchange and other listings toward the end of this year.
 
-**[34:47] Kieren James-Lubin:** Yeah, just - it's getting the native STRATO token out there has been kind of the final step. So it's sort of an opinionated L1, call it an app chain. We've drawn some inspiration from the Hyperliquids of the world. It's really an application that's the focus.
+**[34:47] Kieren James-Lubin:** Yeah, just - it's getting the native STRATO token out there has been kind of the final step. So it's sort of an opinionated L1, call it an app chain. We've drawn some inspiration from the [Hyperliquids](https://hyperliquid.xyz/) of the world. It's really an application that's the focus.
 
 But it works better for a host of reasons on its own chain. And so to date we've got a native stablecoin which the gas is paid in. But that's not really a long term solution.
 
@@ -327,13 +323,13 @@ And that's the reason to do it because it's a limited opportunity. And then that
 
 **[37:29] Jeff Powell:** Well, I mean, I would recommend. I mean, it's pretty simple. I mean, I would like to think that anybody watching this is already signed up for STRATO, but say they're not. They go to [https://strato.nexus](https://strato.nexus), get themselves a STRATO account. There's no fee to do that.
 
-Get onto the system. You'll go to [https://strato.nexus/auction](https://strato.nexus/auction), sign up for the whitelist, whatever wallets you use. As Kieren said, we all use Metamask. Get yourself a Metamask account. Be sure that you're on Ethereum Mainnet.
+Get onto the system. You'll go to [https://strato.nexus/auction](https://strato.nexus/auction), sign up for the whitelist, whatever wallets you use. As Kieren said, we all use [MetaMask](https://metamask.io/). Get yourself a [MetaMask](https://metamask.io/) account. Be sure that you're on [Ethereum](https://ethereum.org/) Mainnet.
 
 You've got some ETH so that you can buy, watch Victor's very nice demo on how the auction is going to work. Really understand it. Contact us to ask questions. I'm jeff@strato.nexus. Tempted to give my phone number, but I guess I won't. Contact us with questions, but get involved.
 
 I mean, you've got time now to figure it out. You've got time to look at it, to be part of it, to start bridging in assets, get ready for it. And we're always here to help you and answer questions.
 
-**[38:38] Art Malkov:** Absolutely. And we're gonna be rolling out, I believe I heard there will maybe be Discord for questions and all that before the launch. Just so anybody - you can just follow the Twitter and you'll see all the news. Yeah, follow Twitter. I think that's also another good way to do it.
+**[38:38] Art Malkov:** Absolutely. And we're gonna be rolling out, I believe I heard there will maybe be [Discord](https://discord.com/) for questions and all that before the launch. Just so anybody - you can just follow the [Twitter](https://x.com/) and you'll see all the news. Yeah, follow [Twitter](https://x.com/). I think that's also another good way to do it.
 
 So where people go and sign up and stay up to date, I guess, Bob, we can jump in. It's kind of similar.
 
