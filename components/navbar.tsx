@@ -43,6 +43,7 @@ const NAV_ITEMS: NavItem[] = [
       { labelKey: "nav.faq", href: "https://docs.strato.nexus/faq/", external: true },
       { labelKey: "nav.blockexplorer", href: "https://stratoscan.strato.nexus/", external: true },
       { labelKey: "nav.blog", href: "/blog", external: false },
+      { labelKey: "nav.videos", href: "/videos", external: false },
       { labelKey: "nav.vaults", href: "/vaults", external: false },
       { labelKey: "nav.communityPartnership", href: "/communityrewards", external: false },
     ],

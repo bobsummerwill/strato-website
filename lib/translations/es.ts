@@ -12,6 +12,7 @@ const es = {
   "nav.faq": "Preguntas Frecuentes",
   "nav.blockexplorer": "Explorador de Bloques",
   "nav.blog": "Blog",
+  "nav.videos": "Videos",
   "nav.communityPartnership": "Alianza Comunitaria",
   "nav.launchApp": "Abrir App",
   "nav.preTge": "ICO Comunitaria",
