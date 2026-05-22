@@ -1,7 +1,7 @@
 ---
 title: "STRATO ICO Community AMA"
 date: "2026-05-21"
-description: "A STRATO community AMA covering the Community ICO, participation details, and questions from the STRATO community."
+description: "Art Malkov hosts a STRATO community AMA with Kieren James-Lubin, Victor Wong, Jim Hormuzdiar, Natasha Hormuzdiar, Bob Summerwill, and Jeff Powell covering tokenized gold and silver, STRATO's Ethereum roots, the Community ICO, Uniswap auction mechanics, wallet requirements, token receipt, and how to prepare before the June 3 launch."
 categories: "Videos"
 img: /images/covers-for-spaces/strato-ico-community-ama.png
 featured: false
